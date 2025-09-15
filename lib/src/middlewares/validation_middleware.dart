@@ -11,9 +11,9 @@ class ValidationMiddleware extends Middleware {
       try {
         final data = await req.json();
         await Validator.validate(data, rules);
-        await next(req, res);
+        return await next(req, res);
       } catch (e) {
-        res.status(400).json({'error': e.toString()});
+        return res.status(400).json({'error': e.toString()});
       }
     };
   }

@@ -6,10 +6,9 @@ class AuthMiddleware extends Middleware {
     return (Request req, Response res) async {
       final token = req.bearerToken;
       if (token == null || token != "expected_token") {
-        res.status(401).send("Unauthorized");
-        return;
+        return res.status(401).send("Unauthorized");
       }
-      await next(req, res);
+      return await next(req, res);
     };
   }
 }

@@ -4,10 +4,12 @@ import 'package:sample/src/routes/auth_routes.dart';
 import 'package:sample/src/routes/user_routes.dart';
 
 void main() {
-  final app = Flint();
+  final app = Flint(
+    withDefaultMiddleware: true,
+  );
 
   app.get('/', (req, res) async {
-    res.send('Hello from FlintDart hs!');
+    return res.send('Hello from FlintDart!');
   });
   app.mount("/users", registerUserRoutes, middlewares: [
     AuthMiddleware(),

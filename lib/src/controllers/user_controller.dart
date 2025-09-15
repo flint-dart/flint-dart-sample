@@ -3,28 +3,30 @@ import 'package:flint_dart/storage.dart';
 import 'package:sample/src/models/user_model.dart';
 
 class UserController {
-  Future<void> index(Request req, Response res) async {
+  Future<Response> index(Request req, Response res) async {
     final users = await User().all();
-    res.json({
+    return res.json({
       "message": 'List of user ',
       "users": users.map((user) => user.toMap()).toList()
     });
   }
 
-  Future<void> show(Request req, Response res) async {
+  Future<Response?> show(Request req, Response res) async {
     var user = await User().find(req.params['id']);
     // User user = await User().update(req.params['id'], {"name": "IBK Upade"});
 
     if (user != null) {
-      res.send('User ${user.toMap()}');
+      return res.send('User ${user.toMap()}');
     }
+
+    return res.status(404).json({"message": "user not found"});
   }
 
-  Future<void> create(Request req, Response res) async {
-    res.send('Creating user...');
+  Future<Response> create(Request req, Response res) async {
+    return res.send('Creating user...');
   }
 
-  Future<void> update(Request req, Response res) async {
+  Future<Response> update(Request req, Response res) async {
     try {
       final String userId = req.params['id']!;
       final body = await req.form();
@@ -63,22 +65,22 @@ class UserController {
 
       final updatedUser = await User().find(userId);
 
-      res.json({
+      return res.json({
         "status": "success",
         "message": "User updated successfully.",
         "user": updatedUser?.toMap(),
       });
     } on ValidationException catch (e) {
-      res.status(422).json({"status": "errors", "errors": e.errors});
+      return res.status(422).json({"status": "errors", "errors": e.errors});
     } catch (e) {
-      res.status(500).json({
+      return res.status(500).json({
         "status": "error",
         "message": "Failed to update user: ${e.toString()}",
       });
     }
   }
 
-  Future<void> delete(Request req, Response res) async {
-    res.send('Deleting user ${req.params['id']}');
+  Future<Response> delete(Request req, Response res) async {
+    return res.send('Deleting user ${req.params['id']}');
   }
 }
