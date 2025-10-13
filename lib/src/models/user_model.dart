@@ -9,7 +9,7 @@ class User extends Model<User> {
   String? profilePicUrl;
 
   @override
-  Map<dynamic, dynamic> toMap() => {
+  Map<String, dynamic> toMap() => {
         'id': id,
         'name': name,
         'email': email,

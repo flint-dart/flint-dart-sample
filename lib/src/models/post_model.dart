@@ -21,7 +21,7 @@ class PostModel extends Model<PostModel> {
       );
 
   @override
-  Map<dynamic, dynamic> toMap() => {
+  Map<String, dynamic> toMap() => {
         'id': id,
         'title': title,
       };

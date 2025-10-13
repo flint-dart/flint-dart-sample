@@ -13,9 +13,9 @@ class AuthController {
       });
       String hashPassword = Hashing().hash(body["password"]);
       body["password"] = hashPassword;
-      final User user = await User().create(body);
+      final User? user = await User().create(body);
 
-      return res.json({"status": "success", "data": user.toMap()});
+      return res.json({"status": "success", "data": user?.toMap()});
     } on ValidationException catch (e) {
       return res.status(422).json({"status": "errors", "errors": e.errors});
     } catch (e) {
