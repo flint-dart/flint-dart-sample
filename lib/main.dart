@@ -14,6 +14,8 @@ void main() {
   app.mount("/users", registerUserRoutes, middlewares: [
     AuthMiddleware(),
   ]);
+
+  
   app.mount("/auth", authRoutes);
   app.listen(3000);
 }
