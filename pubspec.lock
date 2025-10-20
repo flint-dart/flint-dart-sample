@@ -77,10 +77,10 @@ packages:
     dependency: transitive
     description:
       name: dart_jsonwebtoken
-      sha256: "21ce9f8a8712f741e8d6876a9c82c0f8a257fe928c4378a91d8527b92a3fd413"
+      sha256: "0de65691c1d736e9459f22f654ddd6fd8368a271d4e41aa07e53e6301eff5075"
       url: "https://pub.dev"
     source: hosted
-    version: "3.2.0"
+    version: "3.3.1"
   ed25519_edwards:
     dependency: transitive
     description:
@@ -101,10 +101,10 @@ packages:
     dependency: "direct main"
     description:
       name: flint_dart
-      sha256: c33982edb2d657de733e0063994a5d194bed579e2b62d8e26fbaa683dc3c9d97
+      sha256: "3f41d00b0b4470a19ce3e2b57d093cca9a327de995e14c7ef2e40c5d36c0e249"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0+7"
+    version: "1.0.0+10"
   intl:
     dependency: transitive
     description:
@@ -189,10 +189,10 @@ packages:
     dependency: transitive
     description:
       name: postgres
-      sha256: "9aaa6f4872956adef653535a4e2133b167465c1a68c22b9bd0744ef1244e9393"
+      sha256: "013c6dc668eaab9771c4d3f5fc3e87ed4b3cd4ab3587ac6943cc1f38509ff723"
       url: "https://pub.dev"
     source: hosted
-    version: "3.5.6"
+    version: "3.5.7"
   sasl_scram:
     dependency: transitive
     description:

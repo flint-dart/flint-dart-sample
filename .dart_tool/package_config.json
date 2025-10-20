@@ -57,7 +57,7 @@
     },
     {
       "name": "dart_jsonwebtoken",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/dart_jsonwebtoken-3.2.0",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/dart_jsonwebtoken-3.3.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -75,7 +75,7 @@
     },
     {
       "name": "flint_dart",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+7",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+10",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -141,7 +141,7 @@
     },
     {
       "name": "postgres",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/postgres-3.5.6",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/postgres-3.5.7",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
