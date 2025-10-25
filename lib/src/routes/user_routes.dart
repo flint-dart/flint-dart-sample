@@ -8,7 +8,6 @@ void registerUserRoutes(Flint app) {
   /// @summary Register a new user
   /// @server http://localhost:3000
   /// @server https://api.mydomain.com
-
   app.get("/users", controller.index);
 
   /// @summary Get a user by ID
@@ -19,13 +18,28 @@ void registerUserRoutes(Flint app) {
   /// @summary Create a new user
   /// @response 200 User registered successfully
   /// @body {"email": "string", "password": "string"}
+  /// @auth basicAuth
   app.post('/', controller.create);
 
   /// @prefix /users
+  /// @summary Update /:id
+  /// @auth bearer
+  /// @response 200 Resource updated successfully
+  /// @response 400 Bad request
+  /// @response 401 Unauthorized
+  /// @response 500 Internal server error
+  /// @param id path string required id parameter
+  /// @body {"example": "string"}
 
   app.put('/:id', AuthMiddleware().handle(controller.update));
 
   /// @prefix /users
-  /// @auth
+  /// @summary Delete /:id
+  /// @auth bearer
+  /// @response 200 Resource deleted successfully
+  /// @response 400 Bad request
+  /// @response 401 Unauthorized
+  /// @response 500 Internal server error
+  /// @param id path string required id parameter
   app.delete('/:id', AuthMiddleware().handle(controller.delete));
 }

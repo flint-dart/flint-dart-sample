@@ -7,9 +7,9 @@ class AuthController {
     try {
       final body = await req.json();
       await Validator.validate(body, {
-        "email": "required|string|email|min:3",
-        "name": "required|string|min:5",
-        "password": "required|string|min:8"
+        "email": "required|email",
+        "name": "required|string|min:30|max:10",
+        "password": "required|string"
       });
       String hashPassword = Hashing().hash(body["password"]);
       body["password"] = hashPassword;
