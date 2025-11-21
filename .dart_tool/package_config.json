@@ -51,7 +51,7 @@
     },
     {
       "name": "crypto",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.6",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.7",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -74,8 +74,14 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "flint_client",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/flint_client-0.0.1+4",
+      "packageUri": "lib/",
+      "languageVersion": "3.8"
+    },
+    {
       "name": "flint_dart",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+12",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+20",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -93,7 +99,7 @@
     },
     {
       "name": "mailer",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/mailer-6.5.0",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/mailer-6.6.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -111,7 +117,7 @@
     },
     {
       "name": "mysql_dart",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/mysql_dart-1.0.0",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/mysql_dart-1.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
@@ -135,33 +141,15 @@
     },
     {
       "name": "pool",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/pool-1.5.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "postgres",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/postgres-3.5.7",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/pool-1.5.2",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
-      "name": "sasl_scram",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/sasl_scram-0.1.1",
+      "name": "postgres",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/postgres-3.5.9",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "saslprep",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/saslprep-1.0.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "sprintf",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/sprintf-7.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.9"
     },
     {
       "name": "stack_trace",
@@ -194,14 +182,8 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "unorm_dart",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/unorm_dart-0.3.1+1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "uuid",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/uuid-4.5.1",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/uuid-4.5.2",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -219,8 +201,8 @@
     }
   ],
   "generator": "pub",
-  "generatorVersion": "3.8.1",
+  "generatorVersion": "3.9.2",
   "flutterRoot": "file:///C:/src/flutter",
-  "flutterVersion": "3.32.1",
+  "flutterVersion": "3.35.7",
   "pubCache": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache"
 }

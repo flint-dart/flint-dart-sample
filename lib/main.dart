@@ -6,8 +6,9 @@ import 'package:sample/src/views/welcome.dart';
 
 void main() {
   final app = Flint(
-    withDefaultMiddleware: true,
-  );
+      withDefaultMiddleware: true,
+      autoConnectDb: true,
+      enableSwaggerDocs: true);
 
   app.get('/', (req, res) async {
     return res.render(Welcome());
@@ -17,5 +18,5 @@ void main() {
   ]);
 
   app.mount("/auth", authRoutes);
-  app.listen(3000);
+  app.listen(3000, hotReload: true);
 }

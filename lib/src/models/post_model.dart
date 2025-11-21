@@ -25,7 +25,7 @@ class PostModel extends Model<PostModel> {
       {'id': id, 'field1': field1, 'field2': field2, "created_at": createdAt};
 
   @override
-  PostModel fromMap(Map<String, dynamic> map) {
+  PostModel fromMap(Map<dynamic, dynamic> map) {
     return PostModel()
       ..id = map['id']
       ..field1 = map['field1']
