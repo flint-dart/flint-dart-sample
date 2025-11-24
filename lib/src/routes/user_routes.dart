@@ -30,7 +30,12 @@ void registerUserRoutes(Flint app) {
   /// @response 500 Internal server error
   /// @param id path string required id parameter
   /// @body {"example": "string"}
-
+  /// @query page integer optional Page number for pagination
+  /// @query limit integer optional Number of items per page
+  /// @query location string optional Filter by location
+  /// @query type string optional Filter by school type
+  /// @query curriculum string optional Filter by curriculum
+  /// @query min_rating number optional Filter by minimum rating
   app.put('/:id', AuthMiddleware().handle(controller.update));
 
   /// @prefix /users

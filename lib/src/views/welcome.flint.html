@@ -1,0 +1,191 @@
+<!-- views/schools/register.html -->
+{@ extends('layouts.base') @}
+
+{@ section('content') @}
+<!-- Registration Page -->
+<div class="registration-page">
+  <div class="registration-container">
+    <div class="registration-header">
+      <h1 class="registration-title">@{ pageTitle }</h1>
+      <p class="registration-subtitle">@{ pageSubtitle }</p>
+    </div>
+    <div class="registration-body">
+      <form class="registration-form" @submit.prevent="submitRegistration()">
+        <!-- School Information Section -->
+        <div class="form-section">
+          <h2 class="form-section-title">
+            <i class="fas fa-school"></i>
+            School Information
+          </h2>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="schoolName" class="form-label required">School Name</label>
+              <input type="text" id="schoolName" class="form-control" placeholder="Enter your school name"
+                x-model="registration.schoolName" required>
+            </div>
+            <div class="form-group">
+              <label for="schoolType" class="form-label required">School Type</label>
+              <select id="schoolType" class="form-control" x-model="registration.schoolType" required>
+                <option value="">Select school type</option>
+                {@ for type in schoolTypes @}
+                <option value="@{ type.value }">@{ type.label }</option>
+                {@ endfor @}
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="curriculum" class="form-label required">Curriculum</label>
+              <select id="curriculum" class="form-control" x-model="registration.curriculum" required>
+                <option value="">Select curriculum</option>
+                {@ for curriculum in curricula @}
+                <option value="@{ curriculum.value }">@{ curriculum.label }</option>
+                {@ endfor @}
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="establishmentYear" class="form-label">Establishment Year</label>
+              <input type="number" id="establishmentYear" class="form-control" placeholder="e.g., 1995"
+                x-model="registration.establishmentYear" min="1900" max="2023">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="description" class="form-label">School Description</label>
+            <textarea id="description" class="form-control" rows="4"
+              placeholder="Tell us about your school's mission, values, and unique features..."
+              x-model="registration.description"></textarea>
+          </div>
+        </div>
+
+        <!-- Contact Information Section -->
+        <div class="form-section">
+          <h2 class="form-section-title">
+            <i class="fas fa-address-book"></i>
+            Contact Information
+          </h2>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email" class="form-label required">Email Address</label>
+              <input type="email" id="email" class="form-control" placeholder="Enter official email address"
+                x-model="registration.email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label required">Phone Number</label>
+              <input type="tel" id="phone" class="form-control" placeholder="Enter contact number"
+                x-model="registration.phone" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="address" class="form-label required">School Address</label>
+              <input type="text" id="address" class="form-control" placeholder="Enter complete school address"
+                x-model="registration.address" required>
+            </div>
+            <div class="form-group">
+              <label for="location" class="form-label required">City/Town</label>
+              <input type="text" id="location" class="form-control" placeholder="Enter city/town"
+                x-model="registration.location" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Facilities Section -->
+        <div class="form-section">
+          <h2 class="form-section-title">
+            <i class="fas fa-list-check"></i>
+            Key Facilities
+          </h2>
+          <p style="color: var(--gray-600); margin-bottom: 1rem;">Select all facilities available at your
+            school</p>
+          <div class="facilities-grid">
+            {@ for facility in facilities @}
+            <label class="facility-item">
+              <input type="checkbox" value="@{ facility.value }" x-model="registration.facilities">
+              <span class="facility-checkbox"></span>
+              <span class="facility-label">@{ facility.label }</span>
+            </label>
+            {@ endfor @}
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full">
+          <i class="fas fa-rocket"></i>
+          Complete Registration
+        </button>
+      </form>
+
+      <div style="text-align: center; margin-top: 2rem;">
+        <p style="color: var(--gray-600);">Already have an account?
+          <a href="/login" style="color: var(--primary); text-decoration: none; font-weight: 600;">Login
+            here</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{@ endsection @}
+
+{@ section('scripts') @}
+<script>
+  function registrationApp() {
+    return {
+      registration: {
+        schoolName: '',
+        schoolType: '',
+        email: '',
+        phone: '',
+        address: '',
+        location: '',
+        curriculum: '',
+        establishmentYear: '',
+        description: '',
+        facilities: []
+      },
+      facilities: [
+
+      ],
+
+      submitRegistration() {
+        // Validate required fields
+        if (!this.registration.schoolName || !this.registration.schoolType ||
+          !this.registration.email || !this.registration.phone ||
+          !this.registration.address || !this.registration.location ||
+          !this.registration.curriculum) {
+          alert('Please fill in all required fields marked with *');
+          return;
+        }
+
+        // Simulate form submission
+        const btn = document.querySelector('.btn-primary');
+        const originalText = btn.innerHTML;
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Processing...';
+        btn.disabled = true;
+
+        setTimeout(() => {
+          alert(`Thank you for registering ${this.registration.schoolName}! We will contact you at ${this.registration.email} shortly to complete your school profile setup.`);
+
+          // Reset form
+          this.registration = {
+            schoolName: '',
+            schoolType: '',
+            email: '',
+            phone: '',
+            address: '',
+            location: '',
+            curriculum: '',
+            establishmentYear: '',
+            description: '',
+            facilities: []
+          };
+
+          btn.innerHTML = originalText;
+          btn.disabled = false;
+
+          // Redirect to home page
+          window.location.href = '/';
+        }, 2000);
+      }
+    }
+  }
+</script>
+{@ endsection @}

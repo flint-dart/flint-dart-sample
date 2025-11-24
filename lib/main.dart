@@ -2,7 +2,6 @@ import 'package:flint_dart/flint_dart.dart';
 import 'package:sample/src/middlewares/auth_middleware.dart';
 import 'package:sample/src/routes/auth_routes.dart';
 import 'package:sample/src/routes/user_routes.dart';
-import 'package:sample/src/views/welcome.dart';
 
 void main() {
   final app = Flint(
@@ -11,7 +10,7 @@ void main() {
       enableSwaggerDocs: true);
 
   app.get('/', (req, res) async {
-    return res.render(Welcome());
+    return res.view("");
   });
   app.mount("/users", registerUserRoutes, middlewares: [
     AuthMiddleware(),
