@@ -81,7 +81,7 @@
     },
     {
       "name": "flint_dart",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+20",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+23",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -192,6 +192,12 @@
       "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/web-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
+    },
+    {
+      "name": "worker_manager",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/worker_manager-7.2.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "sample",
