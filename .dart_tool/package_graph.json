@@ -13,8 +13,9 @@
     },
     {
       "name": "flint_dart",
-      "version": "1.0.0+23",
+      "version": "1.0.0+24",
       "dependencies": [
+        "args",
         "bcrypt",
         "crypto",
         "dart_jsonwebtoken",
@@ -138,6 +139,11 @@
     {
       "name": "bcrypt",
       "version": "1.1.3",
+      "dependencies": []
+    },
+    {
+      "name": "args",
+      "version": "2.7.0",
       "dependencies": []
     },
     {

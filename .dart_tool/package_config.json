@@ -8,6 +8,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "args",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/args-2.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "async",
       "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.13.0",
       "packageUri": "lib/",
@@ -81,7 +87,7 @@
     },
     {
       "name": "flint_dart",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+23",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+24",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -207,8 +213,8 @@
     }
   ],
   "generator": "pub",
-  "generatorVersion": "3.9.2",
+  "generatorVersion": "3.10.4",
   "flutterRoot": "file:///C:/src/flutter",
-  "flutterVersion": "3.35.7",
+  "flutterVersion": "3.38.5",
   "pubCache": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache"
 }

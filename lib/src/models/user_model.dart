@@ -2,35 +2,17 @@ import 'package:flint_dart/model.dart';
 import 'package:flint_dart/schema.dart';
 
 class User extends Model<User> {
-  String? id;
-  String? name;
-  String? email;
-  String? password;
-  String? profilePicUrl;
+  User() : super(() => User());
 
-  @override
-  Map<String, dynamic> toMap() => {
-        'id': id,
-        'name': name,
-        'email': email,
-      };
-
-  @override
-  User fromMap(Map<dynamic, dynamic> map) => User()
-    ..id = map['id']
-    ..name = map['name']
-    ..email = map['email']
-    ..password = map["password"];
+  String get name => getAttribute("name");
+  String get email => getAttribute("name");
+  String get password => getAttribute("password");
+  String get profilePicUrl => getAttribute("profilePicUrl");
 
   @override
   Table get table => Table(
         name: 'users',
         columns: [
-          Column(
-              name: 'id',
-              type: ColumnType.integer,
-              isPrimaryKey: true,
-              isAutoIncrement: true),
           Column(name: 'name', type: ColumnType.string, length: 255),
           Column(name: 'email', type: ColumnType.string, length: 255),
           Column(
@@ -38,7 +20,9 @@ class User extends Model<User> {
             type: ColumnType.string,
           ),
           Column(
-              name: 'created_at', type: ColumnType.datetime, isNullable: true),
+            name: 'profilePicUrl',
+            type: ColumnType.string,
+          ),
         ],
       );
 }
