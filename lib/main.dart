@@ -1,5 +1,5 @@
 import 'package:flint_dart/flint_dart.dart';
-import 'package:sample/src/routes/app_routes.dart';
+import 'package:sample/routes/app_routes.dart';
 
 void main() {
   final app = Flint(

@@ -117,10 +117,10 @@ packages:
     dependency: "direct main"
     description:
       name: flint_dart
-      sha256: d2fd24dcf25b5c3d452d3611e5c5c056ff574d388190c6db99f2e57b11154336
+      sha256: "1be4ce2decc637af13314c96334ca0819f28c647f4759fe439d24b317d56f11a"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0+24"
+    version: "1.0.0+25"
   intl:
     dependency: transitive
     description:
@@ -162,12 +162,13 @@ packages:
     source: hosted
     version: "2.0.0"
   mysql_dart:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      name: mysql_dart
-      sha256: "6461cee301496809362a63b792124b107aceadf26df6cd4d35e7ce7ab5a9a9fb"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: main
+      resolved-ref: "582f81d1cf65eebbb8430119f8a935916cae0a08"
+      url: "https://github.com/Hybiekay/mysql.dart"
+    source: git
     version: "1.2.1"
   package_config:
     dependency: transitive

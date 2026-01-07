@@ -87,7 +87,7 @@
     },
     {
       "name": "flint_dart",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+24",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+25",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -123,7 +123,7 @@
     },
     {
       "name": "mysql_dart",
-      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/hosted/pub.dev/mysql_dart-1.2.1",
+      "rootUri": "file:///C:/Users/EULOGIA/AppData/Local/Pub/Cache/git/mysql.dart-582f81d1cf65eebbb8430119f8a935916cae0a08/",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
