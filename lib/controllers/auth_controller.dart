@@ -1,6 +1,6 @@
 import 'package:flint_dart/auth.dart';
 import 'package:flint_dart/flint_dart.dart';
-import 'package:sample/src/models/user_model.dart';
+import 'package:sample/models/user_model.dart';
 
 class AuthController {
   Future<Response> register(Request req, Response res) async {

@@ -1,5 +1,5 @@
 import 'package:flint_dart/flint_dart.dart';
-import 'package:sample/src/middlewares/auth_middleware.dart';
+import 'package:sample/middlewares/auth_middleware.dart';
 import '../controllers/user_controller.dart';
 
 /// User API routes

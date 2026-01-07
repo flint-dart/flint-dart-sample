@@ -1,5 +1,5 @@
 import 'package:flint_dart/flint_dart.dart';
-import 'package:sample/src/controllers/auth_controller.dart';
+import 'package:sample/controllers/auth_controller.dart';
 
 /// Auth API routes
 class AuthRoutes extends RouteGroup {
