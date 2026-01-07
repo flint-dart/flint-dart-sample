@@ -4,7 +4,7 @@ import 'package:sample/routes/app_routes.dart';
 void main() {
   final app = Flint(
     withDefaultMiddleware: true,
-    autoConnectDb: true,
+    autoConnectDb: false,
     enableSwaggerDocs: true,
   );
 
