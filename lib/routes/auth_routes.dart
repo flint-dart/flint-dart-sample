@@ -39,6 +39,6 @@ class AuthRoutes extends RouteGroup {
     /// @response 401 Unauthorized
     /// @response 500 Internal server error
     /// @body {"example": "string"}
-    app.post('/login-with-google', authController.login);
+    app.post('/login-with-google', authController.loginWithGoogle);
   }
 }

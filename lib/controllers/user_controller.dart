@@ -3,7 +3,10 @@ import 'package:flint_dart/storage.dart';
 import 'package:sample/models/user_model.dart';
 
 class UserController {
-  Future<Response> index(Request req, Response res) async {
+  Future<Response?> index(Context ctx) async {
+    final res = ctx.res;
+    if (res == null) return null;
+
     final users = await User().all();
     return res.json({
       "message": 'List of user ',
@@ -11,7 +14,11 @@ class UserController {
     });
   }
 
-  Future<Response?> show(Request req, Response res) async {
+  Future<Response?> show(Context ctx) async {
+    final req = ctx.req;
+    final res = ctx.res;
+    if (res == null) return null;
+
     var user = await User().find(req.params['id']);
     // User user = await User().update(req.params['id'], {"name": "IBK Upade"});
 
@@ -22,11 +29,18 @@ class UserController {
     return res.status(404).json({"message": "user not found"});
   }
 
-  Future<Response> create(Request req, Response res) async {
+  Future<Response?> create(Context ctx) async {
+    final res = ctx.res;
+    if (res == null) return null;
+
     return res.send('Creating user...');
   }
 
-  Future<Response> update(Request req, Response res) async {
+  Future<Response?> update(Context ctx) async {
+    final req = ctx.req;
+    final res = ctx.res;
+    if (res == null) return null;
+
     try {
       final String userId = req.params['id']!;
       final body = await req.form();
@@ -60,7 +74,7 @@ class UserController {
       }
       // Update the user in the database
       if (updateData.isNotEmpty) {
-        await userToUpdate!.update(userId, updateData);
+        await userToUpdate!.update(id: userId, data: updateData);
       }
 
       final updatedUser = await User().find(userId);
@@ -80,7 +94,11 @@ class UserController {
     }
   }
 
-  Future<Response> delete(Request req, Response res) async {
+  Future<Response?> delete(Context ctx) async {
+    final req = ctx.req;
+    final res = ctx.res;
+    if (res == null) return null;
+
     return res.send('Deleting user ${req.params['id']}');
   }
 }

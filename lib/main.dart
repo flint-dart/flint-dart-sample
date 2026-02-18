@@ -12,5 +12,5 @@ void main() {
   app.routes(AppRoutes());
 
   // Start the server
-  app.listen(3000, hotReload: true);
+  app.listen(port: 3000, hotReload: true);
 }

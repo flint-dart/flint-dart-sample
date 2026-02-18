@@ -29,10 +29,10 @@ packages:
     dependency: transitive
     description:
       name: bcrypt
-      sha256: "9dc3f234d5935a76917a6056613e1a6d9b53f7fa56f98e24cd49b8969307764b"
+      sha256: "6073a700cbbc59f1d4ab27cd532755e3de5e676c4941f535f351374df849270b"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.3"
+    version: "1.2.0"
   buffer:
     dependency: transitive
     description:
@@ -109,18 +109,18 @@ packages:
     dependency: transitive
     description:
       name: flint_client
-      sha256: edc602bfa732b2c38af3d27981b969a7785c95296220257dc5987ae312661965
+      sha256: e1cb6097c90917457e6d201ea152720db75b9580ccf2dd569d4452682aa72d09
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.1+4"
+    version: "0.0.1+5"
   flint_dart:
     dependency: "direct main"
     description:
       name: flint_dart
-      sha256: "1be4ce2decc637af13314c96334ca0819f28c647f4759fe439d24b317d56f11a"
+      sha256: "6641f56f6cbceba2c674944c384fe401f832be3bc054dc8f9b1479c9da465370"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0+25"
+    version: "1.0.0+28"
   intl:
     dependency: transitive
     description:
@@ -149,10 +149,10 @@ packages:
     dependency: transitive
     description:
       name: meta
-      sha256: "23f08335362185a5ea2ad3a4e597f1375e78bce8a040df5c600c8d3552ef2394"
+      sha256: "9f29b9bcc8ee287b1a31e0d01be0eae99a930dbffdaecf04b3f3d82a969f296f"
       url: "https://pub.dev"
     source: hosted
-    version: "1.17.0"
+    version: "1.18.1"
   mime:
     dependency: transitive
     description:
@@ -258,6 +258,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.5.2"
+  watcher:
+    dependency: transitive
+    description:
+      name: watcher
+      sha256: "1398c9f081a753f9226febe8900fce8f7d0a67163334e1c94a2438339d79d635"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.1"
   web:
     dependency: transitive
     description:

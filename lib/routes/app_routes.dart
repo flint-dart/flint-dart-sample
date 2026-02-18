@@ -14,7 +14,7 @@ class AppRoutes extends RouteGroup {
   @override
   void register(Flint app) {
     // Home route
-    app.get('/', (req, res) async => res.view('welcome'));
+    app.get('/', (Context ctx) async => ctx.res?.view('welcome'));
 
     // Auth routes
     app.routes(AuthRoutes());

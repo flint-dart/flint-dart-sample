@@ -7,11 +7,15 @@ class ValidationMiddleware extends Middleware {
 
   @override
   Handler handle(Handler next) {
-    return (Request req, Response res) async {
+    return (Context ctx) async {
+      final req = ctx.req;
+      final res = ctx.res;
+      if (res == null) return null;
+
       try {
         final data = await req.json();
         await Validator.validate(data, rules);
-        return await next(req, res);
+        return await next(ctx);
       } catch (e) {
         return res.status(400).json({'error': e.toString()});
       }
