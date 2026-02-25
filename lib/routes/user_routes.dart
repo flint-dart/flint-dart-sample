@@ -13,26 +13,29 @@ class UserRoutes extends RouteGroup {
 
   @override
   void register(Flint app) {
-    final controller = UserController();
-
     /// @summary Register a new user
     /// @server http://localhost:3000
     /// @server https://api.mydomain.com
     /// @response 200 User registered successfully
     /// @body {"email": "string", "password": "string"}
     /// @auth basicAuth
-    app.post('/', AuthMiddleware().handle(controller.create));
+    app.post(
+      '/',
+      AuthMiddleware().handle(
+        useController(UserController.new, (c) => c.create()),
+      ),
+    );
 
     /// @summary Get all users
     /// @server http://localhost:3000
     /// @server https://api.mydomain.com
-    app.get('/', controller.index);
+    app.get('/', useController(UserController.new, (c) => c.index()));
 
     /// @summary Get a user by ID
     /// @param id path integer required The ID of the user
     /// @server http://localhost:3000
     /// @server https://api.mydomain.com
-    app.get('/:id', controller.show);
+    app.get('/:id', useController(UserController.new, (c) => c.show()));
 
     /// @summary Update a user by ID
     /// @param id path string required id parameter
@@ -48,7 +51,12 @@ class UserRoutes extends RouteGroup {
     /// @response 400 Bad request
     /// @response 401 Unauthorized
     /// @response 500 Internal server error
-    app.put('/:id', AuthMiddleware().handle(controller.update));
+    app.put(
+      '/:id',
+      AuthMiddleware().handle(
+        useController(UserController.new, (c) => c.update()),
+      ),
+    );
 
     /// @summary Delete a user by ID
     /// @param id path string required id parameter
@@ -57,6 +65,11 @@ class UserRoutes extends RouteGroup {
     /// @response 400 Bad request
     /// @response 401 Unauthorized
     /// @response 500 Internal server error
-    app.delete('/:id', AuthMiddleware().handle(controller.delete));
+    app.delete(
+      '/:id',
+      AuthMiddleware().handle(
+        useController(UserController.new, (c) => c.delete()),
+      ),
+    );
   }
 }

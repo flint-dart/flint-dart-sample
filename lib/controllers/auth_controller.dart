@@ -2,12 +2,8 @@ import 'package:flint_dart/auth.dart';
 import 'package:flint_dart/flint_dart.dart';
 import 'package:sample/models/user_model.dart';
 
-class AuthController {
-  Future<Response?> register(Context ctx) async {
-    final req = ctx.req;
-    final res = ctx.res;
-    if (res == null) return null;
-
+class AuthController extends Controller {
+  Future<Response> register() async {
     try {
       final body = await req.json();
       await Validator.validate(body, {
@@ -29,11 +25,7 @@ class AuthController {
     }
   }
 
-  Future<Response?> login(Context ctx) async {
-    final req = ctx.req;
-    final res = ctx.res;
-    if (res == null) return null;
-
+  Future<Response> login() async {
     try {
       var body = await req.json();
 
@@ -53,11 +45,7 @@ class AuthController {
     }
   }
 
-  Future<Response?> loginWithGoogle(Context ctx) async {
-    final req = ctx.req;
-    final res = ctx.res;
-    if (res == null) return null;
-
+  Future<Response> loginWithGoogle() async {
     try {
       final body = await req.json();
 
@@ -85,19 +73,11 @@ class AuthController {
     }
   }
 
-  Future<Response?> update(Context ctx) async {
-    final req = ctx.req;
-    final res = ctx.res;
-    if (res == null) return null;
-
+  Future<Response> update() async {
     return res.send('Updating item ${req.params['id']}');
   }
 
-  Future<Response?> delete(Context ctx) async {
-    final req = ctx.req;
-    final res = ctx.res;
-    if (res == null) return null;
-
+  Future<Response> delete() async {
     return res.send('Deleting item ${req.params['id']}');
   }
 }

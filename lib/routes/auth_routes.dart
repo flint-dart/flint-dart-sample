@@ -12,8 +12,6 @@ class AuthRoutes extends RouteGroup {
 
   @override
   void register(Flint app) {
-    final authController = AuthController();
-
     /// @summary Register a new user
     /// @auth bearer
     /// @response 200 Success response description
@@ -21,7 +19,10 @@ class AuthRoutes extends RouteGroup {
     /// @response 401 Unauthorized
     /// @response 500 Internal server error
     /// @body {"field1": "string", "field2": "string"}
-    app.post('/register', authController.register);
+    app.post(
+      '/register',
+      useController(AuthController.new, (c) => c.register()),
+    );
 
     /// @summary Login user
     /// @auth bearer
@@ -30,7 +31,10 @@ class AuthRoutes extends RouteGroup {
     /// @response 401 Unauthorized
     /// @response 500 Internal server error
     /// @body {"field1": "string", "field2": "string"}
-    app.post('/login', authController.login);
+    app.post(
+      '/login',
+      useController(AuthController.new, (c) => c.login()),
+    );
 
     /// @summary Login with Google
     /// @auth bearer
@@ -39,6 +43,9 @@ class AuthRoutes extends RouteGroup {
     /// @response 401 Unauthorized
     /// @response 500 Internal server error
     /// @body {"example": "string"}
-    app.post('/login-with-google', authController.loginWithGoogle);
+    app.post(
+      '/login-with-google',
+      useController(AuthController.new, (c) => c.loginWithGoogle()),
+    );
   }
 }

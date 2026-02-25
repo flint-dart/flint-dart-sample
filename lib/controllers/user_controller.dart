@@ -2,11 +2,8 @@ import 'package:flint_dart/flint_dart.dart';
 import 'package:flint_dart/storage.dart';
 import 'package:sample/models/user_model.dart';
 
-class UserController {
-  Future<Response?> index(Context ctx) async {
-    final res = ctx.res;
-    if (res == null) return null;
-
+class UserController extends Controller {
+  Future<Response> index() async {
     final users = await User().all();
     return res.json({
       "message": 'List of user ',
@@ -14,11 +11,7 @@ class UserController {
     });
   }
 
-  Future<Response?> show(Context ctx) async {
-    final req = ctx.req;
-    final res = ctx.res;
-    if (res == null) return null;
-
+  Future<Response> show() async {
     var user = await User().find(req.params['id']);
     // User user = await User().update(req.params['id'], {"name": "IBK Upade"});
 
@@ -29,18 +22,11 @@ class UserController {
     return res.status(404).json({"message": "user not found"});
   }
 
-  Future<Response?> create(Context ctx) async {
-    final res = ctx.res;
-    if (res == null) return null;
-
+  Future<Response> create() async {
     return res.send('Creating user...');
   }
 
-  Future<Response?> update(Context ctx) async {
-    final req = ctx.req;
-    final res = ctx.res;
-    if (res == null) return null;
-
+  Future<Response> update() async {
     try {
       final String userId = req.params['id']!;
       final body = await req.form();
@@ -94,11 +80,7 @@ class UserController {
     }
   }
 
-  Future<Response?> delete(Context ctx) async {
-    final req = ctx.req;
-    final res = ctx.res;
-    if (res == null) return null;
-
+  Future<Response> delete() async {
     return res.send('Deleting user ${req.params['id']}');
   }
 }
