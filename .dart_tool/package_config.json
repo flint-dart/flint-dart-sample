@@ -81,13 +81,13 @@
     },
     {
       "name": "flint_client",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_client-0.0.1+5",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_client-0.0.2",
       "packageUri": "lib/",
       "languageVersion": "3.8"
     },
     {
       "name": "flint_dart",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+29",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+31",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
