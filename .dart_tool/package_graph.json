@@ -22,7 +22,7 @@
     },
     {
       "name": "flint_dart",
-      "version": "1.0.0+31",
+      "version": "1.0.0+32",
       "dependencies": [
         "args",
         "bcrypt",

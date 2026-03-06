@@ -1,4 +1,5 @@
 import 'package:flint_dart/auth.dart';
+import 'package:flint_dart/exception.dart';
 import 'package:flint_dart/flint_dart.dart';
 import 'package:sample/models/user_model.dart';
 
@@ -16,8 +17,6 @@ class AuthController extends Controller {
       final User? user = await User().create(body);
 
       return res.json({"status": "success", "data": user?.toMap()});
-    } on ValidationException catch (e) {
-      return res.status(422).json({"status": "errors", "errors": e.errors});
     } catch (e) {
       return res.status(422).json(
         {"status": "error", "message": e.toString()},
