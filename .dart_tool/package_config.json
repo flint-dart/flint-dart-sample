@@ -81,13 +81,13 @@
     },
     {
       "name": "flint_client",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_client-0.0.2",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_client-0.0.2+1",
       "packageUri": "lib/",
       "languageVersion": "3.8"
     },
     {
       "name": "flint_dart",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+32",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.0.0+33",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -105,9 +105,9 @@
     },
     {
       "name": "mailer",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/mailer-6.6.0",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/mailer-7.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "meta",
@@ -158,6 +158,12 @@
       "languageVersion": "3.9"
     },
     {
+      "name": "punycoder",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/punycoder-0.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.7"
+    },
+    {
       "name": "stack_trace",
       "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.12.1",
       "packageUri": "lib/",
@@ -186,6 +192,12 @@
       "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/universal_web-1.1.1+1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
+    },
+    {
+      "name": "unorm_dart",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/unorm_dart-0.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "uuid",
