@@ -40,7 +40,7 @@ class UserController extends Controller {
           if (userToUpdate != null || userToUpdate?.profilePicUrl != null) {
             // Update the existing profile picture
             profilePicUrl = await Storage.update(
-                userToUpdate!.profilePicUrl, file,
+                userToUpdate!.profilePicUrl ?? "", file,
                 subdirectory: 'profiles');
           } else {
             // Create a new profile picture

@@ -7,11 +7,11 @@ class User extends Model<User> {
   String get name => getAttribute("name");
   String get email => getAttribute("email");
   String get password => getAttribute("password");
-  String get profilePicUrl => getAttribute("profilePicUrl");
- 
- @override
+  String? get profilePicUrl => getAttribute("profilePicUrl");
+
+  @override
   List<String> get conceal => ["password"];
-  
+
   @override
   Table get table => Table(
         name: 'users',
@@ -25,6 +25,7 @@ class User extends Model<User> {
           Column(
             name: 'profilePicUrl',
             type: ColumnType.string,
+            isNullable: true,
           ),
         ],
       );
