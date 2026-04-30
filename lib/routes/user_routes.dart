@@ -13,29 +13,26 @@ class UserRoutes extends RouteGroup {
 
   @override
   void register(Flint app) {
+    final users = app.controller(UserController.new);
+
     /// @summary Register a new user
     /// @server http://localhost:3000
     /// @server https://api.mydomain.com
     /// @response 200 User registered successfully
     /// @body {"email": "string", "password": "string"}
     /// @auth basicAuth
-    app.post(
-      '/',
-      AuthMiddleware().handle(
-        useController(UserController.new, (c) => c.create()),
-      ),
-    );
+    users.post('/', (c) => c.create()).useMiddleware(AuthMiddleware());
 
     /// @summary Get all users
     /// @server http://localhost:3000
     /// @server https://api.mydomain.com
-    app.get('/', useController(UserController.new, (c) => c.index()));
+    users.get('/', (c) => c.index());
 
     /// @summary Get a user by ID
     /// @param id path integer required The ID of the user
     /// @server http://localhost:3000
     /// @server https://api.mydomain.com
-    app.get('/:id', useController(UserController.new, (c) => c.show()));
+    users.get('/:id', (c) => c.show());
 
     /// @summary Update a user by ID
     /// @param id path string required id parameter
@@ -51,12 +48,7 @@ class UserRoutes extends RouteGroup {
     /// @response 400 Bad request
     /// @response 401 Unauthorized
     /// @response 500 Internal server error
-    app.put(
-      '/:id',
-      AuthMiddleware().handle(
-        useController(UserController.new, (c) => c.update()),
-      ),
-    );
+    users.put('/:id', (c) => c.update()).useMiddleware(AuthMiddleware());
 
     /// @summary Delete a user by ID
     /// @param id path string required id parameter
@@ -65,11 +57,6 @@ class UserRoutes extends RouteGroup {
     /// @response 400 Bad request
     /// @response 401 Unauthorized
     /// @response 500 Internal server error
-    app.delete(
-      '/:id',
-      AuthMiddleware().handle(
-        useController(UserController.new, (c) => c.delete()),
-      ),
-    );
+    users.delete('/:id', (c) => c.delete()).useMiddleware(AuthMiddleware());
   }
 }
