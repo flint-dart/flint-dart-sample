@@ -1,6 +1,58 @@
 ﻿# flint-dart-sample
 
-This sample app includes the recommended Flint seeder flow.
+This sample app uses Flint UI as the primary browser experience and includes
+the recommended Flint seeder flow.
+
+## Flint UI
+
+The home route returns a Dart UI page with:
+
+```dart
+return ctx.res?.page('Welcome', props: data);
+```
+
+UI source lives in:
+
+```text
+lib/ui
+```
+
+Pages live in:
+
+```text
+lib/ui/pages
+```
+
+Reusable stateless/stateful components live in:
+
+```text
+lib/ui/components
+```
+
+Included pages:
+
+- `/welcome`
+- `/dashboard`
+- `/login`
+- `/register`
+
+App-wide root styles and design tokens live in:
+
+```text
+lib/ui/styles/app_root_design.dart
+```
+
+Build the browser bundle before running the app:
+
+```bash
+dart run flint_dart:flint_dart web --build-only
+```
+
+Then start the sample:
+
+```bash
+dart lib/main.dart
+```
 
 ## Seeders
 

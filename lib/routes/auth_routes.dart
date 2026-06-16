@@ -32,6 +32,9 @@ class AuthRoutes extends RouteGroup {
     /// @body {"field1": "string", "field2": "string"}
     auth.post('/login', (c) => c.login());
 
+    /// @summary Current sample user
+    auth.get('/me', (c) => c.me());
+
     /// @summary Login with Google
     /// @auth bearer
     /// @response 200 Resource created successfully

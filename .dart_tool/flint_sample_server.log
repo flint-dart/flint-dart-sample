@@ -1,0 +1,886 @@
+[36m2026-06-16T11:41:08.230953 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:41:08.244867 [DEBUG]  FLINT_HOT=[0m
+[36m2026-06-16T11:41:08.247866 [DEBUG]  [FLINT] Starting Parent Launcher (PID: 17500)...[0m
+[36m2026-06-16T11:41:08.345400 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T11:41:12.590857 [DEBUG]  [HOT-RELOAD] Flint watcher started[0m
+[36m2026-06-16T11:41:12.613166 [DEBUG]  [HOT-RELOAD] Watching: lib/[0m
+[36m2026-06-16T11:41:12.613683 [DEBUG]  [HOT-RELOAD] Watching: .env[0m
+[36m2026-06-16T11:41:12.614707 [DEBUG]  [HOT-RELOAD] Watching: lib\ui[0m
+[36m2026-06-16T11:41:12.617716 [DEBUG]  [HOT-RELOAD] Watching: public[0m
+[36m2026-06-16T11:41:12.618969 [DEBUG]  [HOT-RELOAD] Debounce: 300ms templates, 500ms server code[0m
+[36m2026-06-16T11:41:12.619961 [DEBUG]  [HOT-RELOAD] Endpoint: http://localhost:3000/_flint/internal/hot-reload[0m
+[36m2026-06-16T11:41:12.703482 [DEBUG]  [HOT-RELOAD] Port 3000 is already in use. Force stopping listener...[0m
+[36m2026-06-16T11:41:12.944168 [DEBUG]  [HOT-RELOAD] Force stopping PID 8172 on port 3000...[0m
+[36m2026-06-16T11:41:14.020077 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:41:29.642816 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:41:29.653352 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:41:29.683005 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 22384)[0m
+[36m2026-06-16T11:41:29.686014 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T11:41:29.687527 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T11:41:29.779929 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T11:41:30.032331 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:41:30.363868 [DEBUG]  Compiling Flint Web UI...[0m
+[36m2026-06-16T11:41:30.370421 [DEBUG]  Entry: lib\ui\main.dart[0m
+[36m2026-06-16T11:41:41.171102 [DEBUG]  Compiled 13,395,028 input bytes (8,397,877 characters source) to 456,845 characters JavaScript in 5.89 seconds[0m
+[36m2026-06-16T11:41:42.332445 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\main.81be79d0bac8.dart.js[0m
+[36m2026-06-16T11:41:42.339461 [DEBUG]  Flint service worker generated: public\flint-sw.js[0m
+[36m2026-06-16T11:41:42.458332 [DEBUG]  Compiling Flint UI page bundle: Welcome[0m
+[36m2026-06-16T11:41:50.525092 [DEBUG]  Compiled 13,373,807 input bytes (8,376,656 characters source) to 400,210 characters JavaScript in 5.07 seconds[0m
+[36m2026-06-16T11:41:51.413857 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:41:51.422307 [DEBUG]  Compiling Flint UI page bundle: Dashboard[0m
+[36m2026-06-16T11:41:58.554912 [DEBUG]  Compiled 13,375,602 input bytes (8,378,451 characters source) to 383,586 characters JavaScript in 4.35 seconds[0m
+[36m2026-06-16T11:41:59.408451 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\dashboard.135cf346a8ac.dart.js[0m
+[36m2026-06-16T11:41:59.411451 [DEBUG]  Compiling Flint UI page bundle: Login[0m
+[36m2026-06-16T11:42:08.448205 [DEBUG]  Compiled 13,372,739 input bytes (8,375,588 characters source) to 409,976 characters JavaScript in 6.36 seconds[0m
+[36m2026-06-16T11:42:09.294421 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\login.d109d1f8e89d.dart.js[0m
+[36m2026-06-16T11:42:09.299437 [DEBUG]  Compiling Flint UI page bundle: Register[0m
+[36m2026-06-16T11:42:17.804193 [DEBUG]  Compiled 13,372,809 input bytes (8,375,658 characters source) to 410,093 characters JavaScript in 5.46 seconds[0m
+[36m2026-06-16T11:42:18.812906 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\register.9bf09780cde4.dart.js[0m
+[36m2026-06-16T11:42:18.824922 [DEBUG]  Flint UI manifest generated: public\assets\js\flint-ui\manifest.json[0m
+[36m2026-06-16T11:42:18.828293 [DEBUG]  Flint service worker generated: public\flint-sw.js[0m
+[36m2026-06-16T11:45:39.157905 [DEBUG]  [HOT-RELOAD] Restarting server...[0m
+[36m2026-06-16T11:45:39.159879 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:45:41.000005 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:45:53.273051 [DEBUG]  [HOT-RELOAD] Restarting server...[0m
+[36m2026-06-16T11:45:55.216686 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:45:55.227698 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:45:55.262543 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 20528)[0m
+[36m2026-06-16T11:45:55.266567 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T11:45:55.267604 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T11:45:55.327701 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:45:55.434076 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:45:55.465860 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T11:45:57.345179 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:46:10.643869 [DEBUG]  [HOT-RELOAD] Flint UI changed: lib\ui\components\auth\auth.dart[0m
+[36m2026-06-16T11:46:11.106511 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:46:11.115496 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:46:11.154287 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 7724)[0m
+[36m2026-06-16T11:46:11.157304 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T11:46:11.157304 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T11:46:11.372681 [DEBUG]  Skipped locked Flint asset: public\assets\js\flint-ui\main.81be79d0bac8.dart.js (The system cannot find the file specified)[0m
+[36m2026-06-16T11:46:11.379806 [DEBUG]  Compiling Flint Web UI...[0m
+[36m2026-06-16T11:46:11.380808 [DEBUG]  Entry: lib\ui\main.dart[0m
+[36m2026-06-16T11:46:11.479578 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T11:46:11.627219 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:46:20.149740 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:46:20.572241 [DEBUG]  Compiled 13,395,028 input bytes (8,397,877 characters source) to 456,845 characters JavaScript in 5.89 seconds[0m
+[36m2026-06-16T11:46:21.476919 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\main.81be79d0bac8.dart.js[0m
+[36m2026-06-16T11:46:21.481902 [DEBUG]  Flint service worker generated: public\flint-sw.js[0m
+[36m2026-06-16T11:46:21.532695 [DEBUG]  Compiling Flint UI page bundle: Welcome[0m
+[36m2026-06-16T11:46:21.753626 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:46:29.299912 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T11:46:30.597209 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:46:32.220718 [DEBUG]  Compiled 13,373,807 input bytes (8,376,656 characters source) to 400,210 characters JavaScript in 6.64 seconds[0m
+[36m2026-06-16T11:46:33.150158 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:46:33.154619 [DEBUG]  Compiling Flint UI page bundle: Dashboard[0m
+[36m2026-06-16T11:46:33.162148 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T11:46:33.375794 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:46:35.390352 [DEBUG]  [HOT-RELOAD] Flint UI changed: lib\ui\components\auth\auth_form_panel.dart[0m
+[36m2026-06-16T11:46:35.420003 [DEBUG]  Compiling Flint Web UI...[0m
+[36m2026-06-16T11:46:35.421001 [DEBUG]  Entry: lib\ui\main.dart[0m
+[36m2026-06-16T11:46:40.768496 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:46:42.145288 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.135cf346a8ac.dart.js[0m
+[36m2026-06-16T11:46:43.787563 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:46:44.020187 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:46:44.212840 [DEBUG]  Compiled 13,375,602 input bytes (8,378,451 characters source) to 383,586 characters JavaScript in 7.45 seconds[0m
+[36m2026-06-16T11:46:45.847051 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\dashboard.135cf346a8ac.dart.js[0m
+[36m2026-06-16T11:46:45.850579 [DEBUG]  Compiling Flint UI page bundle: Login[0m
+[36m2026-06-16T11:46:46.069936 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.135cf346a8ac.dart.js[0m
+[36m2026-06-16T11:46:49.553532 [DEBUG]  Compiled 13,398,338 input bytes (8,401,187 characters source) to 621,365 characters JavaScript in 11.2 seconds[0m
+[36m2026-06-16T11:46:50.420902 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\main.04e8947dd23a.dart.js[0m
+[36m2026-06-16T11:46:50.424917 [DEBUG]  Flint service worker generated: public\flint-sw.js[0m
+[36m2026-06-16T11:46:50.483884 [DEBUG]  Compiling Flint UI page bundle: Welcome[0m
+[36m2026-06-16T11:46:50.700250 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:46:53.167902 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:46:59.130119 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:46:59.363459 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:47:02.148418 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.6035c7729407.dart.js[0m
+[36m2026-06-16T11:47:02.397907 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:47:02.904283 [DEBUG]  Compiled 13,376,049 input bytes (8,378,898 characters source) to 574,746 characters JavaScript in 13.0 seconds[0m
+[36m2026-06-16T11:47:03.957143 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\login.6035c7729407.dart.js[0m
+[36m2026-06-16T11:47:03.959787 [DEBUG]  Compiling Flint UI page bundle: Register[0m
+[36m2026-06-16T11:47:04.340646 [DEBUG]  Compiled 13,373,807 input bytes (8,376,656 characters source) to 400,210 characters JavaScript in 8.84 seconds[0m
+[36m2026-06-16T11:47:05.515972 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:47:05.517971 [DEBUG]  Compiling Flint UI page bundle: Dashboard[0m
+[36m2026-06-16T11:47:05.524505 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T11:47:05.741378 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:47:06.907619 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T11:47:07.123727 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T11:47:08.658585 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:47:14.019826 [DEBUG]  [HOT-RELOAD] Flint UI changed: lib\ui\pages\dashboard_page.dart[0m
+[36m2026-06-16T11:47:14.048065 [DEBUG]  Compiling Flint Web UI...[0m
+[36m2026-06-16T11:47:14.048065 [DEBUG]  Entry: lib\ui\main.dart[0m
+[36m2026-06-16T11:47:16.628468 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:47:16.707894 [DEBUG]  Compiled 13,375,602 input bytes (8,378,451 characters source) to 383,586 characters JavaScript in 6.81 seconds[0m
+[36m2026-06-16T11:47:18.089305 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\dashboard.135cf346a8ac.dart.js[0m
+[36m2026-06-16T11:47:18.093448 [DEBUG]  Compiling Flint UI page bundle: Login[0m
+[36m2026-06-16T11:47:18.109320 [DEBUG]  Compiled 13,376,119 input bytes (8,378,968 characters source) to 574,833 characters JavaScript in 8.97 seconds[0m
+[36m2026-06-16T11:47:18.737407 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\register.8b4bc342eb41.dart.js[0m
+[36m2026-06-16T11:47:18.742943 [DEBUG]  Flint UI manifest generated: public\assets\js\flint-ui\manifest.json[0m
+[36m2026-06-16T11:47:18.745974 [DEBUG]  Flint service worker generated: public\flint-sw.js[0m
+[36m2026-06-16T11:47:19.001507 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:47:20.338149 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:47:20.656713 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:47:22.165699 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.135cf346a8ac.dart.js[0m
+[36m2026-06-16T11:47:29.199504 [DEBUG]  Compiled 13,399,925 input bytes (8,402,774 characters source) to 638,482 characters JavaScript in 9.90 seconds[0m
+[31m2026-06-16T11:47:30.216632 [ERROR]  [HOT-RELOAD] Error rebuilding Flint UI
+PathAccessException: Cannot delete file, path = 'public\assets\js\flint-ui\main.dart.js' (OS Error: The process cannot access the file because it is being used by another process, errno = 32)
+#0      _File.throwIfError (dart:io/file_impl.dart:779:7)
+#1      _File._deleteSync (dart:io/file_impl.dart:364:5)
+#2      FileSystemEntity.deleteSync (dart:io/file_system_entity.dart:425:7)
+#3      FlintWebUiBuilder._hashDartJsAssetFamily (package:flint_dart/src/cli/web_ui_builder.dart:857:12)
+#4      FlintWebUiBuilder.compile (package:flint_dart/src/cli/web_ui_builder.dart:200:25)
+<asynchronous suspension>
+#5      FlintWebUiBuilder.compileDefault (package:flint_dart/src/cli/web_ui_builder.dart:187:5)
+<asynchronous suspension>
+#6      watchFiles.onEvent.<anonymous closure> (file:///D:/eulogia/flint/flint_dart/bin/hot_reload.dart:435:13)
+<asynchronous suspension>
+[0m
+[36m2026-06-16T11:47:30.419035 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.e3b0c44298fc.dart.js[0m
+[36m2026-06-16T11:47:31.119218 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:47:31.525259 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:47:31.685829 [DEBUG]  Compiled 13,376,049 input bytes (8,378,898 characters source) to 574,746 characters JavaScript in 8.56 seconds[0m
+[36m2026-06-16T11:47:32.625438 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\login.6035c7729407.dart.js[0m
+[36m2026-06-16T11:47:32.634286 [DEBUG]  Compiling Flint UI page bundle: Register[0m
+[36m2026-06-16T11:47:33.088732 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:47:34.842814 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:47:35.085897 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:47:36.336153 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.6035c7729407.dart.js[0m
+[36m2026-06-16T11:47:41.125347 [DEBUG]  [HOT-RELOAD] Restarting server...[0m
+[36m2026-06-16T11:47:41.128371 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:47:43.152587 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:47:47.750819 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T11:47:48.307200 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:47:48.686882 [DEBUG]  Compiled 13,376,119 input bytes (8,378,968 characters source) to 574,833 characters JavaScript in 11.4 seconds[0m
+[36m2026-06-16T11:47:49.334032 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\register.8b4bc342eb41.dart.js[0m
+[36m2026-06-16T11:47:49.369867 [DEBUG]  Flint UI manifest generated: public\assets\js\flint-ui\manifest.json[0m
+[36m2026-06-16T11:47:49.372043 [DEBUG]  Flint service worker generated: public\flint-sw.js[0m
+[36m2026-06-16T11:47:49.588429 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:47:49.870739 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:47:50.055348 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:47:50.380789 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:47:51.455816 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:47:51.660918 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:47:51.753131 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:47:52.090853 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:47:52.147037 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:47:53.825260 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:47:54.075933 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:47:54.169017 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:47:56.140718 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:03.181304 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:48:03.191817 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:48:03.222338 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 21644)[0m
+[36m2026-06-16T11:48:03.225858 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T11:48:03.225858 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T11:48:03.293051 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:48:03.366664 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:48:03.395624 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T11:48:03.681017 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:48:04.125031 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:48:05.428791 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js[0m
+[36m2026-06-16T11:48:05.490803 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:48:06.208094 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:07.478046 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:16.370841 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css[0m
+[36m2026-06-16T11:48:18.459709 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:19.839006 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:48:20.207634 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:48:21.375963 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.6035c7729407.dart.js[0m
+[36m2026-06-16T11:48:21.903881 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:22.276255 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:23.428551 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:24.902421 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:48:24.918945 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:48:24.967047 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 18152)[0m
+[36m2026-06-16T11:48:24.972059 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T11:48:24.973060 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T11:48:25.101946 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:48:25.116641 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:48:25.600027 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T11:48:27.269784 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:48:31.832954 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.f060436e862c.dart.js[0m
+[36m2026-06-16T11:48:32.987559 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.f060436e862c.dart.js.gz[0m
+[36m2026-06-16T11:48:33.298620 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:48:33.691179 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.f060436e862c.dart.js.map.gz[0m
+[36m2026-06-16T11:48:33.910513 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:34.554676 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.f060436e862c.dart.js.deps.gz[0m
+[36m2026-06-16T11:48:35.054316 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:35.302318 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:48:35.351261 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:35.770758 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:35.801439 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css.gz[0m
+[36m2026-06-16T11:48:36.581770 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js.gz[0m
+[36m2026-06-16T11:48:36.598082 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:37.389691 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:37.871711 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:38.648679 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:43.514092 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:48:43.525661 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:48:43.562176 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 2328)[0m
+[36m2026-06-16T11:48:43.566174 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T11:48:43.567174 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T11:48:43.705042 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T11:48:43.750043 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:48:43.771848 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:48:45.854142 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:48:47.835362 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css[0m
+[36m2026-06-16T11:48:49.897665 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:48:57.786224 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T11:48:58.519757 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:48:59.221603 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.gz[0m
+[36m2026-06-16T11:48:59.832095 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.map.gz[0m
+[36m2026-06-16T11:48:59.847531 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:00.427240 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.deps.gz[0m
+[36m2026-06-16T11:49:00.480793 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:49:00.492830 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:49:00.529841 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 12704)[0m
+[36m2026-06-16T11:49:00.532838 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T11:49:00.533838 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T11:49:00.687587 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:49:00.698114 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:49:00.834008 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T11:49:02.632947 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:49:12.862012 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:49:13.205996 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:49:14.627953 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js[0m
+[36m2026-06-16T11:49:14.926055 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:15.254867 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:16.107529 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js.gz[0m
+[36m2026-06-16T11:49:16.688462 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:18.203009 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:18.248969 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js.map.gz[0m
+[36m2026-06-16T11:49:19.406842 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js.deps.gz[0m
+[36m2026-06-16T11:49:20.321890 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:21.472695 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:21.896863 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:49:21.905855 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:49:21.935281 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 6472)[0m
+[36m2026-06-16T11:49:21.938479 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T11:49:21.938479 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T11:49:22.030063 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T11:49:22.312614 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:49:22.328238 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:49:24.471389 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:49:31.424157 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:49:32.407252 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.6035c7729407.dart.js[0m
+[36m2026-06-16T11:49:33.281195 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.6035c7729407.dart.js.gz[0m
+[36m2026-06-16T11:49:33.483723 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:34.047074 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.6035c7729407.dart.js.map.gz[0m
+[36m2026-06-16T11:49:34.470305 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:34.796474 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.6035c7729407.dart.js.deps.gz[0m
+[36m2026-06-16T11:49:35.372671 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:36.132553 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:36.854137 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:39.886522 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:49:39.907336 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:49:42.005834 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:49:48.347986 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:49:49.344837 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.8b4bc342eb41.dart.js[0m
+[36m2026-06-16T11:49:50.372720 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.8b4bc342eb41.dart.js.gz[0m
+[36m2026-06-16T11:49:50.403373 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:51.182662 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.8b4bc342eb41.dart.js.map.gz[0m
+[36m2026-06-16T11:49:51.417358 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:51.850619 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.8b4bc342eb41.dart.js.deps.gz[0m
+[36m2026-06-16T11:49:52.422861 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:52.959221 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\manifest.json.gz[0m
+[36m2026-06-16T11:49:53.243301 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:53.894221 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:53.924501 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js.gz[0m
+[36m2026-06-16T11:49:55.032345 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:55.968013 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:49:56.932139 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:49:56.942701 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:49:56.958747 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T11:49:57.370529 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:49:57.382803 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:49:59.257414 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:50:12.551131 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:50:12.560486 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:50:12.590786 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 21360)[0m
+[36m2026-06-16T11:50:12.592828 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T11:50:12.593812 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T11:50:12.680017 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:50:12.723021 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T11:51:23.269119 [DEBUG]  [HOT-RELOAD] Flint UI changed: lib\ui\pages\welcome_page.dart[0m
+[36m2026-06-16T11:51:23.311362 [DEBUG]  Compiling Flint Web UI...[0m
+[36m2026-06-16T11:51:23.311362 [DEBUG]  Entry: lib\ui\main.dart[0m
+[36m2026-06-16T11:51:31.636659 [DEBUG]  Compiled 13,399,939 input bytes (8,402,788 characters source) to 638,482 characters JavaScript in 6.04 seconds[0m
+[36m2026-06-16T11:51:32.480430 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\main.f060436e862c.dart.js[0m
+[36m2026-06-16T11:51:32.483433 [DEBUG]  Flint service worker generated: public\flint-sw.js[0m
+[36m2026-06-16T11:51:32.562164 [DEBUG]  Compiling Flint UI page bundle: Welcome[0m
+[36m2026-06-16T11:51:32.782356 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:51:34.782177 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:51:40.960932 [DEBUG]  Compiled 13,373,821 input bytes (8,376,670 characters source) to 400,210 characters JavaScript in 4.76 seconds[0m
+[36m2026-06-16T11:51:41.685509 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:51:41.689353 [DEBUG]  Compiling Flint UI page bundle: Dashboard[0m
+[36m2026-06-16T11:51:41.699782 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T11:51:41.910666 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:51:43.250588 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T11:51:44.463477 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:51:50.532642 [DEBUG]  Compiled 13,378,142 input bytes (8,380,991 characters source) to 568,130 characters JavaScript in 5.76 seconds[0m
+[36m2026-06-16T11:51:51.413102 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js[0m
+[36m2026-06-16T11:51:51.424128 [DEBUG]  Compiling Flint UI page bundle: Login[0m
+[36m2026-06-16T11:51:51.439204 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:51:51.654669 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js[0m
+[36m2026-06-16T11:51:53.059771 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:51:53.279420 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:51:54.807770 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js[0m
+[36m2026-06-16T11:52:00.952664 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:52:01.088251 [DEBUG]  Compiled 13,376,049 input bytes (8,378,898 characters source) to 574,746 characters JavaScript in 6.36 seconds[0m
+[36m2026-06-16T11:52:01.964589 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\login.6035c7729407.dart.js[0m
+[36m2026-06-16T11:52:01.967540 [DEBUG]  Compiling Flint UI page bundle: Register[0m
+[36m2026-06-16T11:52:02.187728 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.6035c7729407.dart.js[0m
+[36m2026-06-16T11:52:05.308914 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:52:06.498017 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.6035c7729407.dart.js[0m
+[36m2026-06-16T11:52:11.709570 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:52:11.779493 [DEBUG]  Compiled 13,376,119 input bytes (8,378,968 characters source) to 574,833 characters JavaScript in 7.23 seconds[0m
+[36m2026-06-16T11:52:12.704152 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\register.8b4bc342eb41.dart.js[0m
+[36m2026-06-16T11:52:12.717451 [DEBUG]  Flint UI manifest generated: public\assets\js\flint-ui\manifest.json[0m
+[36m2026-06-16T11:52:12.721453 [DEBUG]  Flint service worker generated: public\flint-sw.js[0m
+[36m2026-06-16T11:52:12.943407 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:52:16.763742 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:52:17.284282 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:52:19.198028 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:52:50.791628 [DEBUG]  [HOT-RELOAD] Flint UI changed: lib\ui\components\auth\auth_page_shell.dart[0m
+[36m2026-06-16T11:52:50.815743 [DEBUG]  Compiling Flint Web UI...[0m
+[36m2026-06-16T11:52:50.815743 [DEBUG]  Entry: lib\ui\main.dart[0m
+[36m2026-06-16T11:52:59.940965 [DEBUG]  [HOT-RELOAD] Restarting server...[0m
+[36m2026-06-16T11:52:59.943968 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:53:00.987485 [DEBUG]  Compiled 13,400,272 input bytes (8,403,121 characters source) to 639,592 characters JavaScript in 7.28 seconds[0m
+[36m2026-06-16T11:53:01.694121 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\main.7bc7c590d39f.dart.js[0m
+[36m2026-06-16T11:53:01.698183 [DEBUG]  Flint service worker generated: public\flint-sw.js[0m
+[36m2026-06-16T11:53:01.765964 [DEBUG]  Compiling Flint UI page bundle: Welcome[0m
+[36m2026-06-16T11:53:01.982218 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:53:02.489958 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:53:04.047534 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:12.411644 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T11:53:12.452162 [DEBUG]  Compiled 13,373,821 input bytes (8,376,670 characters source) to 400,210 characters JavaScript in 7.07 seconds[0m
+[36m2026-06-16T11:53:13.144885 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:53:13.147881 [DEBUG]  Compiling Flint UI page bundle: Dashboard[0m
+[36m2026-06-16T11:53:13.380896 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:53:14.462481 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:15.444440 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:19.885564 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:53:19.903613 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:53:19.931174 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T11:53:19.955713 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:53:20.024390 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:53:21.952225 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:53:27.499657 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:53:27.873956 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:53:28.124948 [DEBUG]  Compiled 13,378,142 input bytes (8,380,991 characters source) to 568,130 characters JavaScript in 10.6 seconds[0m
+[36m2026-06-16T11:53:29.617017 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js[0m
+[36m2026-06-16T11:53:29.620028 [DEBUG]  Compiling Flint UI page bundle: Login[0m
+[36m2026-06-16T11:53:29.656141 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:29.866989 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js[0m
+[36m2026-06-16T11:53:29.962273 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:31.911949 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:36.379483 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css[0m
+[36m2026-06-16T11:53:38.457950 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:44.604053 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:53:44.717338 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:53:44.799652 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:53:44.734460 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:53:44.791697 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:53:44.840756 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T11:53:45.197714 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:45.201728 [DEBUG]  [HOT-RELOAD] Browser reload skipped; server is still down.[0m
+[36m2026-06-16T11:53:45.202728 [DEBUG]  [HOT-RELOAD] Browser reload skipped; server is still down.[0m
+[36m2026-06-16T11:53:45.204729 [DEBUG]  [HOT-RELOAD] Browser reload skipped; server is still down.[0m
+[36m2026-06-16T11:53:45.207031 [DEBUG]  [HOT-RELOAD] Browser reload skipped; server is still down.[0m
+[36m2026-06-16T11:53:45.208541 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:53:45.335702 [DEBUG]  Compiled 13,376,382 input bytes (8,379,231 characters source) to 575,856 characters JavaScript in 10.8 seconds[0m
+[36m2026-06-16T11:53:46.395508 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\login.1b89e49320a2.dart.js[0m
+[36m2026-06-16T11:53:46.398881 [DEBUG]  Compiling Flint UI page bundle: Register[0m
+[36m2026-06-16T11:53:46.633352 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.1b89e49320a2.dart.js[0m
+[36m2026-06-16T11:53:47.271457 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:47.850470 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:53:48.701079 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:51.259793 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.7bc7c590d39f.dart.js[0m
+[36m2026-06-16T11:53:52.739162 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.7bc7c590d39f.dart.js.gz[0m
+[36m2026-06-16T11:53:53.319739 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:53.396452 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.7bc7c590d39f.dart.js.map.gz[0m
+[36m2026-06-16T11:53:54.098942 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.7bc7c590d39f.dart.js.deps.gz[0m
+[36m2026-06-16T11:53:54.799485 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:54.803481 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css.gz[0m
+[36m2026-06-16T11:53:55.457864 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:55.792561 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js.gz[0m
+[36m2026-06-16T11:53:56.175388 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:56.871159 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:53:57.849917 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:00.725658 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:54:01.002367 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:54:01.183998 [DEBUG]  Compiled 13,376,452 input bytes (8,379,301 characters source) to 575,943 characters JavaScript in 12.1 seconds[0m
+[36m2026-06-16T11:54:02.363542 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\register.5fcd5c237d0a.dart.js[0m
+[36m2026-06-16T11:54:02.409935 [DEBUG]  Flint UI manifest generated: public\assets\js\flint-ui\manifest.json[0m
+[36m2026-06-16T11:54:02.412023 [DEBUG]  Flint service worker generated: public\flint-sw.js[0m
+[36m2026-06-16T11:54:02.681497 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T11:54:02.804652 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:03.084083 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:04.491303 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:04.742284 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:09.195317 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:54:09.390768 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:54:09.669299 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:54:09.688846 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:54:09.744367 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 6548)[0m
+[36m2026-06-16T11:54:09.748372 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T11:54:09.749370 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T11:54:09.888322 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T11:54:11.247348 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css[0m
+[36m2026-06-16T11:54:11.357007 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:54:13.339020 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:21.043508 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T11:54:21.265336 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T11:54:22.336726 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:54:23.131016 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:23.334235 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:23.460447 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.gz[0m
+[36m2026-06-16T11:54:24.130998 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.map.gz[0m
+[36m2026-06-16T11:54:24.413264 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:24.786497 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.deps.gz[0m
+[36m2026-06-16T11:54:25.522141 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:26.223476 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:26.864549 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:28.316751 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:54:28.334020 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:54:28.516100 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:54:28.533256 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:54:28.571449 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T11:54:30.748971 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:54:40.248122 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:54:40.628747 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:54:42.321950 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:42.415047 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js[0m
+[36m2026-06-16T11:54:42.692930 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:44.433765 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js.gz[0m
+[36m2026-06-16T11:54:44.498465 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:45.349121 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js.map.gz[0m
+[36m2026-06-16T11:54:46.113328 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js.deps.gz[0m
+[36m2026-06-16T11:54:46.490824 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:47.409207 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:48.173778 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:54:55.664788 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:54:55.686336 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:54:55.725990 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T11:54:55.863934 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:54:55.873951 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:54:58.163695 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:55:00.132621 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:55:00.423867 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:55:01.777144 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.1b89e49320a2.dart.js[0m
+[36m2026-06-16T11:55:02.212486 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:02.507827 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:02.866639 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.1b89e49320a2.dart.js.gz[0m
+[36m2026-06-16T11:55:03.781220 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.1b89e49320a2.dart.js.map.gz[0m
+[36m2026-06-16T11:55:03.834687 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:04.677040 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.1b89e49320a2.dart.js.deps.gz[0m
+[36m2026-06-16T11:55:04.952687 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:05.845537 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:06.751267 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:13.941740 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:55:13.952263 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:55:13.974733 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T11:55:14.081181 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:55:14.091706 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:55:15.941755 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:55:16.007503 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:55:16.224098 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:55:17.425445 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.5fcd5c237d0a.dart.js[0m
+[36m2026-06-16T11:55:18.023467 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:18.271816 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:18.600156 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.5fcd5c237d0a.dart.js.gz[0m
+[36m2026-06-16T11:55:19.346368 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.5fcd5c237d0a.dart.js.map.gz[0m
+[36m2026-06-16T11:55:19.487595 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:19.984192 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.5fcd5c237d0a.dart.js.deps.gz[0m
+[36m2026-06-16T11:55:20.663082 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:20.815736 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\manifest.json.gz[0m
+[36m2026-06-16T11:55:21.419177 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:21.668728 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js.gz[0m
+[36m2026-06-16T11:55:22.049011 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:22.896311 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:23.754606 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T11:55:30.599049 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:55:30.611116 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:55:30.631658 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T11:55:30.765642 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:55:30.785371 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:55:32.932826 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:55:45.381671 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:55:45.390226 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:55:45.418599 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 20060)[0m
+[36m2026-06-16T11:55:45.420616 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T11:55:45.420616 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T11:55:45.491344 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T11:55:45.649924 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:56:39.304762 [DEBUG]  [HOT-RELOAD] Restarting server...[0m
+[36m2026-06-16T11:56:39.308334 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T11:56:41.252939 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T11:56:56.146133 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T11:56:56.155225 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T11:56:56.196965 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 20004)[0m
+[36m2026-06-16T11:56:56.202702 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T11:56:56.202702 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T11:56:56.331755 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T11:56:56.593873 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T11:57:24.403569 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css[0m
+[36m2026-06-16T11:57:36.329264 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.7bc7c590d39f.dart.js[0m
+[36m2026-06-16T11:57:37.778085 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.7bc7c590d39f.dart.js.gz[0m
+[36m2026-06-16T11:57:38.652195 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.7bc7c590d39f.dart.js.map.gz[0m
+[36m2026-06-16T11:57:39.628019 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.7bc7c590d39f.dart.js.deps.gz[0m
+[36m2026-06-16T11:57:40.442253 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css.gz[0m
+[36m2026-06-16T11:57:41.147418 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js.gz[0m
+[36m2026-06-16T11:57:52.150576 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css[0m
+[36m2026-06-16T11:58:01.968981 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T11:58:02.673826 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T11:58:03.782656 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.gz[0m
+[36m2026-06-16T11:58:04.484159 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.map.gz[0m
+[36m2026-06-16T11:58:05.216552 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.deps.gz[0m
+[36m2026-06-16T11:58:15.412762 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T11:58:17.004402 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js[0m
+[36m2026-06-16T11:58:18.192513 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js.gz[0m
+[36m2026-06-16T11:58:19.085658 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js.map.gz[0m
+[36m2026-06-16T11:58:19.842307 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.c6b115c8e3de.dart.js.deps.gz[0m
+[36m2026-06-16T11:58:30.110536 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T11:58:31.076935 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.1b89e49320a2.dart.js[0m
+[36m2026-06-16T11:58:31.932542 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.1b89e49320a2.dart.js.gz[0m
+[36m2026-06-16T11:58:32.428387 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.1b89e49320a2.dart.js.map.gz[0m
+[36m2026-06-16T11:58:32.931309 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.1b89e49320a2.dart.js.deps.gz[0m
+[36m2026-06-16T11:58:41.435991 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T11:58:42.591467 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.5fcd5c237d0a.dart.js[0m
+[36m2026-06-16T11:58:43.822328 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.5fcd5c237d0a.dart.js.gz[0m
+[36m2026-06-16T11:58:44.475947 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.5fcd5c237d0a.dart.js.map.gz[0m
+[36m2026-06-16T11:58:45.022651 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.5fcd5c237d0a.dart.js.deps.gz[0m
+[36m2026-06-16T11:58:45.709328 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\manifest.json.gz[0m
+[36m2026-06-16T11:58:46.347054 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js.gz[0m
+[36m2026-06-16T12:03:11.515630 [DEBUG]  [HOT-RELOAD] Flint UI changed: lib\ui\components\auth\auth_page_shell.dart[0m
+[36m2026-06-16T12:03:11.535422 [DEBUG]  Compiling Flint Web UI...[0m
+[36m2026-06-16T12:03:11.536422 [DEBUG]  Entry: lib\ui\main.dart[0m
+[36m2026-06-16T12:03:21.193893 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.c45bb3607b72.dart.js[0m
+[36m2026-06-16T12:03:21.967526 [DEBUG]  Compiled 13,401,395 input bytes (8,404,244 characters source) to 644,701 characters JavaScript in 8.14 seconds[0m
+[36m2026-06-16T12:03:23.881386 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\main.c45bb3607b72.dart.js[0m
+[36m2026-06-16T12:03:23.884385 [DEBUG]  Flint service worker generated: public\flint-sw.js[0m
+[36m2026-06-16T12:03:23.985430 [DEBUG]  Compiling Flint UI page bundle: Welcome[0m
+[36m2026-06-16T12:03:24.335373 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T12:03:32.506611 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T12:03:32.522137 [DEBUG]  Compiled 13,373,821 input bytes (8,376,670 characters source) to 400,210 characters JavaScript in 4.82 seconds[0m
+[36m2026-06-16T12:03:33.583254 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T12:03:33.586255 [DEBUG]  Compiling Flint UI page bundle: Dashboard[0m
+[36m2026-06-16T12:03:33.801697 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T12:03:41.195202 [DEBUG]  Compiled 13,378,778 input bytes (8,381,627 characters source) to 569,523 characters JavaScript in 5.59 seconds[0m
+[36m2026-06-16T12:03:42.472157 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js[0m
+[36m2026-06-16T12:03:42.475159 [DEBUG]  Compiling Flint UI page bundle: Login[0m
+[36m2026-06-16T12:03:42.481694 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T12:03:42.702915 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js[0m
+[36m2026-06-16T12:03:54.389038 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css[0m
+[36m2026-06-16T12:03:55.708092 [DEBUG]  Compiled 13,377,505 input bytes (8,380,354 characters source) to 580,965 characters JavaScript in 9.65 seconds[0m
+[36m2026-06-16T12:03:56.259780 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\login.7336e39bb06a.dart.js[0m
+[36m2026-06-16T12:03:56.261784 [DEBUG]  Compiling Flint UI page bundle: Register[0m
+[36m2026-06-16T12:03:56.266782 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T12:03:56.479270 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.7336e39bb06a.dart.js[0m
+[36m2026-06-16T12:04:05.522897 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.c45bb3607b72.dart.js[0m
+[36m2026-06-16T12:04:06.352500 [DEBUG]  [HOT-RELOAD] Restarting server...[0m
+[36m2026-06-16T12:04:06.357503 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T12:04:06.635376 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T12:04:06.871812 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T12:04:06.949023 [DEBUG]  Compiled 13,377,575 input bytes (8,380,424 characters source) to 581,052 characters JavaScript in 7.60 seconds[0m
+[36m2026-06-16T12:04:08.321688 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\register.102cf012e9b2.dart.js[0m
+[36m2026-06-16T12:04:08.333699 [DEBUG]  Flint UI manifest generated: public\assets\js\flint-ui\manifest.json[0m
+[36m2026-06-16T12:04:08.335693 [DEBUG]  Flint service worker generated: public\flint-sw.js[0m
+[36m2026-06-16T12:04:08.624783 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.c45bb3607b72.dart.js.deps.gz[0m
+[36m2026-06-16T12:04:08.970559 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css.gz[0m
+[36m2026-06-16T12:04:09.393968 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js.gz[0m
+[36m2026-06-16T12:04:09.751363 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T12:04:10.389261 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:10.688547 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:11.032637 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:11.438102 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:18.046273 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css[0m
+[36m2026-06-16T12:04:20.080392 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:22.346695 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T12:04:22.356341 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T12:04:22.386355 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 19256)[0m
+[36m2026-06-16T12:04:22.388797 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T12:04:22.388797 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T12:04:22.430966 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T12:04:22.479193 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T12:04:22.487709 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T12:04:24.198857 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T12:04:24.306289 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T12:04:25.548484 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T12:04:26.358880 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.gz[0m
+[36m2026-06-16T12:04:26.364409 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:27.588605 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.map.gz[0m
+[36m2026-06-16T12:04:27.604658 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:28.421509 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:28.849446 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.deps.gz[0m
+[36m2026-06-16T12:04:29.633513 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:30.914530 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:38.202205 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T12:04:38.211220 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T12:04:38.225242 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T12:04:38.229235 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T12:04:38.530196 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T12:04:38.538766 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T12:04:39.029317 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js[0m
+[36m2026-06-16T12:04:39.528381 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js.gz[0m
+[36m2026-06-16T12:04:39.842124 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js.map.gz[0m
+[36m2026-06-16T12:04:40.093845 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js.deps.gz[0m
+[36m2026-06-16T12:04:40.530797 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T12:04:41.109453 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:41.592484 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:41.887513 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:42.169768 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:48.303056 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T12:04:48.585739 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T12:04:50.368609 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:50.617236 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.7336e39bb06a.dart.js[0m
+[36m2026-06-16T12:04:50.648773 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:51.460775 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.7336e39bb06a.dart.js.gz[0m
+[36m2026-06-16T12:04:51.926705 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.7336e39bb06a.dart.js.map.gz[0m
+[36m2026-06-16T12:04:52.298786 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.7336e39bb06a.dart.js.deps.gz[0m
+[36m2026-06-16T12:04:52.689744 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:53.520265 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:04:53.800962 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T12:04:53.834501 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T12:04:53.802952 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T12:04:53.823502 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T12:04:53.849041 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T12:04:55.672491 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T12:04:59.644766 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T12:05:00.649302 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.102cf012e9b2.dart.js[0m
+[36m2026-06-16T12:05:01.583227 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.102cf012e9b2.dart.js.gz[0m
+[36m2026-06-16T12:05:01.708769 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:05:02.161985 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.102cf012e9b2.dart.js.map.gz[0m
+[36m2026-06-16T12:05:02.683490 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.102cf012e9b2.dart.js.deps.gz[0m
+[36m2026-06-16T12:05:02.716560 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:05:03.605997 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\manifest.json.gz[0m
+[36m2026-06-16T12:05:03.639543 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:05:04.202933 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:05:04.735306 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:05:04.936246 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js.gz[0m
+[36m2026-06-16T12:05:05.659941 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:05:06.977381 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:05:08.061908 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T12:05:08.075331 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T12:05:08.096855 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T12:05:30.297597 [DEBUG]  [HOT-RELOAD] Flint UI changed: lib\ui\components\auth\auth_page_shell.dart[0m
+[36m2026-06-16T12:05:33.098162 [DEBUG]  [HOT-RELOAD] Build notice skipped because server is not listening.[0m
+[36m2026-06-16T12:05:33.126398 [DEBUG]  Compiling Flint Web UI...[0m
+[36m2026-06-16T12:05:33.127397 [DEBUG]  Entry: lib\ui\main.dart[0m
+[36m2026-06-16T12:05:43.106319 [DEBUG]  [HOT-RELOAD] Server process started but port 3000 is not reachable.[0m
+[36m2026-06-16T12:05:43.916015 [DEBUG]  [HOT-RELOAD] Server restart failed.[0m
+[36m2026-06-16T12:05:43.920015 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T12:05:45.861769 [DEBUG]  [HOT-RELOAD] Port 3000 is already in use. Force stopping listener...[0m
+[36m2026-06-16T12:05:46.490097 [DEBUG]  [HOT-RELOAD] Force stopping PID 23772 on port 3000...[0m
+[36m2026-06-16T12:05:47.965314 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T12:05:53.641961 [DEBUG]  Compiled 13,401,444 input bytes (8,404,293 characters source) to 644,773 characters JavaScript in 14.7 seconds[0m
+[36m2026-06-16T12:05:55.022770 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\main.53e958095ab6.dart.js[0m
+[36m2026-06-16T12:05:55.025775 [DEBUG]  Flint service worker generated: public\flint-sw.js[0m
+[36m2026-06-16T12:05:55.117156 [DEBUG]  Compiling Flint UI page bundle: Welcome[0m
+[36m2026-06-16T12:05:55.330017 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T12:05:57.417207 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:05:58.169041 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T12:06:00.219782 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:07.330049 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T12:06:07.372005 [DEBUG]  Compiled 13,373,821 input bytes (8,376,670 characters source) to 400,210 characters JavaScript in 8.57 seconds[0m
+[36m2026-06-16T12:06:08.290563 [DEBUG]  Hashed Flint UI asset: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T12:06:08.293562 [DEBUG]  Compiling Flint UI page bundle: Dashboard[0m
+[36m2026-06-16T12:06:07.979301 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T12:06:07.999772 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T12:06:08.051619 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 22964)[0m
+[36m2026-06-16T12:06:08.055855 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T12:06:08.056855 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T12:06:08.169344 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T12:06:08.514027 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T12:06:08.654099 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T12:06:08.767570 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T12:06:10.070450 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T12:06:10.740592 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T12:06:10.945479 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T12:06:12.143475 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:12.818207 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:24.689297 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T12:06:25.003023 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T12:06:25.089558 [DEBUG]  Compiled 13,378,778 input bytes (8,381,627 characters source) to 569,523 characters JavaScript in 13.1 seconds[0m
+[36m2026-06-16T12:06:27.909047 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:27.910038 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:28.255529 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.e3b0c44298fc.dart.js[0m
+[36m2026-06-16T12:06:28.523069 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T12:06:28.802528 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css[0m
+[31m2026-06-16T12:06:29.986215 [ERROR]  [HOT-RELOAD] Error rebuilding Flint UI
+PathAccessException: Cannot delete file, path = 'public\assets\js\flint-ui\pages\dashboard.dart.js' (OS Error: The process cannot access the file because it is being used by another process, errno = 32)
+#0      _File.throwIfError (dart:io/file_impl.dart:779:7)
+#1      _File._deleteSync (dart:io/file_impl.dart:364:5)
+#2      FileSystemEntity.deleteSync (dart:io/file_system_entity.dart:425:7)
+#3      FlintWebUiBuilder._hashDartJsAssetFamily (package:flint_dart/src/cli/web_ui_builder.dart:857:12)
+#4      FlintWebUiBuilder.compilePageBundles (package:flint_dart/src/cli/web_ui_builder.dart:260:27)
+<asynchronous suspension>
+#5      FlintWebUiBuilder.compileDefault (package:flint_dart/src/cli/web_ui_builder.dart:189:7)
+<asynchronous suspension>
+#6      watchFiles.onEvent.<anonymous closure> (file:///D:/eulogia/flint/flint_dart/bin/hot_reload.dart:435:13)
+<asynchronous suspension>
+[0m
+[36m2026-06-16T12:06:30.325779 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:30.574791 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js[0m
+[36m2026-06-16T12:06:30.606806 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:30.886407 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:32.663232 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:38.462481 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T12:06:38.482377 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T12:06:38.542365 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 24100)[0m
+[36m2026-06-16T12:06:38.546891 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T12:06:38.547890 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T12:06:38.583356 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T12:06:38.675255 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T12:06:40.866189 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T12:06:48.241454 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T12:06:48.598571 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T12:06:50.154453 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.ea288d28b5ba.dart.js[0m
+[36m2026-06-16T12:06:50.310014 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:50.683159 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:50.855554 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.53e958095ab6.dart.js[0m
+[36m2026-06-16T12:06:52.241082 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:52.285737 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.53e958095ab6.dart.js.gz[0m
+[36m2026-06-16T12:06:52.924767 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:53.376030 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.53e958095ab6.dart.js.map.gz[0m
+[36m2026-06-16T12:06:54.337660 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:54.880470 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.53e958095ab6.dart.js.deps.gz[0m
+[36m2026-06-16T12:06:55.440777 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:56.106491 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css.gz[0m
+[36m2026-06-16T12:06:56.954266 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:57.286715 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js.gz[0m
+[36m2026-06-16T12:06:58.158011 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:06:59.347649 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:07:04.473811 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T12:07:04.824102 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T12:07:05.058443 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T12:07:05.120902 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T12:07:05.223188 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T12:07:05.376222 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T12:07:05.388560 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T12:07:06.564609 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T12:07:07.469201 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T12:07:08.635369 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:07:16.224 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css[0m
+[36m2026-06-16T12:07:18.283254 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:07:27.234361 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T12:07:29.132151 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T12:07:29.316867 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:07:30.333529 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.gz[0m
+[36m2026-06-16T12:07:31.168473 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.map.gz[0m
+[36m2026-06-16T12:07:31.203734 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:07:31.705686 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T12:07:31.737870 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T12:07:31.807069 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 13196)[0m
+[36m2026-06-16T12:07:31.811493 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T12:07:31.818078 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T12:07:32.125004 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T12:07:32.177332 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T12:07:32.181629 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.deps.gz[0m
+[36m2026-06-16T12:07:32.794704 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T12:07:34.383020 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T12:07:55.356137 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T12:07:55.667684 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T12:07:57.027041 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js[0m
+[36m2026-06-16T12:07:57.449189 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:07:57.715649 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:07:58.182279 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js.gz[0m
+[36m2026-06-16T12:07:59.021540 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js.map.gz[0m
+[36m2026-06-16T12:07:59.083775 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:07:59.941626 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js.deps.gz[0m
+[36m2026-06-16T12:08:00.235992 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:01.108962 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:01.878752 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T12:08:01.892078 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T12:08:01.908901 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T12:08:02.125149 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T12:08:02.136163 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T12:08:03.996100 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T12:08:12.669795 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T12:08:13.213163 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T12:08:14.771264 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:14.833332 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.ea288d28b5ba.dart.js[0m
+[36m2026-06-16T12:08:15.288430 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:16.165723 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.ea288d28b5ba.dart.js.gz[0m
+[36m2026-06-16T12:08:16.908680 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:17.051156 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.ea288d28b5ba.dart.js.map.gz[0m
+[36m2026-06-16T12:08:17.706689 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.ea288d28b5ba.dart.js.deps.gz[0m
+[36m2026-06-16T12:08:18.237519 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:19.130068 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:19.771283 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:23.606703 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T12:08:23.626241 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T12:08:23.652711 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T12:08:23.677499 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T12:08:23.694030 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T12:08:25.733246 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T12:08:30.272913 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T12:08:30.582357 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T12:08:32.189505 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.c104e208545d.dart.js[0m
+[36m2026-06-16T12:08:32.347434 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:32.667524 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:33.629595 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.c104e208545d.dart.js.gz[0m
+[36m2026-06-16T12:08:34.238646 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:34.692388 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.c104e208545d.dart.js.map.gz[0m
+[36m2026-06-16T12:08:35.458202 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.c104e208545d.dart.js.deps.gz[0m
+[36m2026-06-16T12:08:35.731841 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:36.205942 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\manifest.json.gz[0m
+[36m2026-06-16T12:08:36.752692 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:37.143141 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js.gz[0m
+[36m2026-06-16T12:08:37.511050 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:38.276324 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:39.185214 [DEBUG]  [HOT-RELOAD] Server reload endpoint is not reachable. Restarting server...[0m
+[36m2026-06-16T12:08:43.916100 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T12:08:43.922283 [DEBUG]  [HOT-RELOAD] Stopping old server...[0m
+[36m2026-06-16T12:08:43.912098 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T12:08:43.927300 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T12:08:43.955606 [DEBUG]  [FLINT] ❌ ERROR: Could not bind to port 3000: Failed to create server socket[0m
+[36m2026-06-16T12:08:46.442328 [DEBUG]  [HOT-RELOAD] Starting server...[0m
+[36m2026-06-16T12:09:01.699786 [DEBUG]  [FLINT] ⚠️ Hot reload is ENABLED.[0m
+[36m2026-06-16T12:09:01.724794 [DEBUG]  FLINT_HOT=1[0m
+[36m2026-06-16T12:09:01.764229 [DEBUG]  [FLINT] Server Worker running on http://localhost:3000 (PID: 22388)[0m
+[36m2026-06-16T12:09:01.771231 [DEBUG]  Mail server configured for Flint Dart <noreply@flintdart.eulogia.net>@smtp.gmail.com[0m
+[32m2026-06-16T12:09:01.772236 [INFO]  📧 Mail configured using provider: gmail[0m
+[36m2026-06-16T12:09:01.784245 [DEBUG]  [HOT-RELOAD] Server started on http://localhost:3000[0m
+[36m2026-06-16T12:09:02.114412 [DEBUG]  [DEBUG] Swagger UI directory: D:\eulogia\flint\flint-dart-sample\..\flint_dart\lib\swagger\swagger-ui[0m
+[36m2026-06-16T15:05:17.442669 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css[0m
+[36m2026-06-16T15:05:28.045915 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.53e958095ab6.dart.js[0m
+[36m2026-06-16T15:05:28.813307 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.53e958095ab6.dart.js.gz[0m
+[36m2026-06-16T15:05:29.255186 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.53e958095ab6.dart.js.map.gz[0m
+[36m2026-06-16T15:05:29.869882 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\main.53e958095ab6.dart.js.deps.gz[0m
+[36m2026-06-16T15:05:30.272262 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css.gz[0m
+[36m2026-06-16T15:05:30.738504 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js.gz[0m
+[36m2026-06-16T15:05:39.072958 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\css\flint-ui\style.css[0m
+[36m2026-06-16T15:05:46.197270 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T15:05:46.835224 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T15:05:47.335771 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.gz[0m
+[36m2026-06-16T15:05:47.791494 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.map.gz[0m
+[36m2026-06-16T15:05:48.352723 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js.deps.gz[0m
+[36m2026-06-16T15:05:57.450158 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T15:05:58.295269 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js[0m
+[36m2026-06-16T15:05:59.047891 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js.gz[0m
+[36m2026-06-16T15:05:59.439878 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js.map.gz[0m
+[36m2026-06-16T15:05:59.785419 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js.deps.gz[0m
+[36m2026-06-16T15:06:08.506083 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T15:06:09.302415 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.ea288d28b5ba.dart.js[0m
+[36m2026-06-16T15:06:10.081494 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.ea288d28b5ba.dart.js.gz[0m
+[36m2026-06-16T15:06:10.469772 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.ea288d28b5ba.dart.js.map.gz[0m
+[36m2026-06-16T15:06:10.871983 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.ea288d28b5ba.dart.js.deps.gz[0m
+[36m2026-06-16T15:06:19.292085 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T15:06:20.119973 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.c104e208545d.dart.js[0m
+[36m2026-06-16T15:06:20.995365 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.c104e208545d.dart.js.gz[0m
+[36m2026-06-16T15:06:21.355404 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.c104e208545d.dart.js.map.gz[0m
+[36m2026-06-16T15:06:21.732765 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.c104e208545d.dart.js.deps.gz[0m
+[36m2026-06-16T15:06:22.173300 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\manifest.json.gz[0m
+[36m2026-06-16T15:06:22.608213 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js.gz[0m
+[36m2026-06-16T15:07:24.707678 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
+[36m2026-06-16T15:07:30.859632 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.dart.js[0m
+[36m2026-06-16T15:07:31.812401 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\welcome.786b3b1a5603.dart.js[0m
+[36m2026-06-16T15:07:44.053093 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.dart.js[0m
+[36m2026-06-16T15:07:44.866491 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\dashboard.f7faee6e7c91.dart.js[0m
+[36m2026-06-16T15:07:53.079871 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.dart.js[0m
+[36m2026-06-16T15:07:54.084966 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\login.ea288d28b5ba.dart.js[0m
+[36m2026-06-16T15:08:00.972001 [DEBUG]  [HOT-RELOAD] Web asset changed: public\assets\js\flint-ui\pages\register.dart.js[0m
+[36m2026-06-16T15:08:01.722025 [DEBUG]  [HOT-RELOAD] Web asset changed: public\flint-sw.js[0m
