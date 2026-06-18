@@ -125,10 +125,10 @@ packages:
     dependency: "direct main"
     description:
       name: flint_ui
-      sha256: "555f03cc332ba79e49492bb5c18647652489980b9b149155ce21d9282377c84d"
+      sha256: "9fe9c0e83d279221734d0bece34eb898cd7a8dc4f9f107651fbb02bd760b5d74"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.10"
+    version: "0.1.11"
   intl:
     dependency: transitive
     description:
