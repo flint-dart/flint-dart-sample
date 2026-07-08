@@ -13,17 +13,8 @@
       "devDependencies": []
     },
     {
-      "name": "mysql_dart",
-      "version": "1.2.1",
-      "dependencies": [
-        "buffer",
-        "crypto",
-        "tuple"
-      ]
-    },
-    {
       "name": "flint_ui",
-      "version": "0.1.11",
+      "version": "0.1.12",
       "dependencies": [
         "flint_client",
         "universal_web"
@@ -31,12 +22,13 @@
     },
     {
       "name": "flint_dart",
-      "version": "1.1.12",
+      "version": "1.1.15",
       "dependencies": [
         "args",
         "bcrypt",
         "crypto",
         "dart_jsonwebtoken",
+        "flint_ai",
         "flint_client",
         "flint_ui",
         "mailer",
@@ -49,23 +41,6 @@
         "watcher",
         "worker_manager"
       ]
-    },
-    {
-      "name": "tuple",
-      "version": "2.0.2",
-      "dependencies": []
-    },
-    {
-      "name": "crypto",
-      "version": "3.0.7",
-      "dependencies": [
-        "typed_data"
-      ]
-    },
-    {
-      "name": "buffer",
-      "version": "1.2.3",
-      "dependencies": []
     },
     {
       "name": "universal_web",
@@ -105,6 +80,11 @@
         "meta",
         "web"
       ]
+    },
+    {
+      "name": "flint_ai",
+      "version": "0.1.0",
+      "dependencies": []
     },
     {
       "name": "path",
@@ -163,6 +143,11 @@
       ]
     },
     {
+      "name": "mysql_dart",
+      "version": "3.0.0",
+      "dependencies": []
+    },
+    {
       "name": "dart_jsonwebtoken",
       "version": "3.3.1",
       "dependencies": [
@@ -178,10 +163,10 @@
       "dependencies": []
     },
     {
-      "name": "typed_data",
-      "version": "1.4.0",
+      "name": "crypto",
+      "version": "3.0.7",
       "dependencies": [
-        "collection"
+        "typed_data"
       ]
     },
     {
@@ -269,6 +254,11 @@
       ]
     },
     {
+      "name": "buffer",
+      "version": "1.2.3",
+      "dependencies": []
+    },
+    {
       "name": "ed25519_edwards",
       "version": "0.3.1",
       "dependencies": [
@@ -291,6 +281,13 @@
       "dependencies": [
         "collection",
         "convert"
+      ]
+    },
+    {
+      "name": "typed_data",
+      "version": "1.4.0",
+      "dependencies": [
+        "collection"
       ]
     },
     {

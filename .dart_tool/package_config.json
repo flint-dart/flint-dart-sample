@@ -80,6 +80,12 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "flint_ai",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_ai-0.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "flint_client",
       "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_client-0.0.4",
       "packageUri": "lib/",
@@ -87,13 +93,13 @@
     },
     {
       "name": "flint_dart",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.1.12",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.1.15",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "flint_ui",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_ui-0.1.11",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_ui-0.1.12",
       "packageUri": "lib/",
       "languageVersion": "3.8"
     },
@@ -129,9 +135,9 @@
     },
     {
       "name": "mysql_dart",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/git/mysql.dart-582f81d1cf65eebbb8430119f8a935916cae0a08/",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/mysql_dart-3.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.16"
+      "languageVersion": "3.6"
     },
     {
       "name": "package_config",
@@ -180,12 +186,6 @@
       "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/stream_channel-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "3.3"
-    },
-    {
-      "name": "tuple",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/tuple-2.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
     },
     {
       "name": "typed_data",

@@ -105,6 +105,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
+  flint_ai:
+    dependency: transitive
+    description:
+      name: flint_ai
+      sha256: "83c4b3232e272319552242390e79617248f1657000cb194da0abcb61d259cd81"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0"
   flint_client:
     dependency: transitive
     description:
@@ -117,18 +125,18 @@ packages:
     dependency: "direct main"
     description:
       name: flint_dart
-      sha256: d02a11d5bfe459f8ad947735a276f07e2d2fc3f92f1171c253fbb3db20a6f3f7
+      sha256: "7d3743124de156ece2a10047f5091f6e18f1ca4af49e612e18a8714dd66dcdb1"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.12"
+    version: "1.1.15"
   flint_ui:
     dependency: "direct main"
     description:
       name: flint_ui
-      sha256: "9fe9c0e83d279221734d0bece34eb898cd7a8dc4f9f107651fbb02bd760b5d74"
+      sha256: d9691a0d7c685060687a165b040aa8926645f6e4ab1fc856d03046d445ad0f4f
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.11"
+    version: "0.1.12"
   intl:
     dependency: transitive
     description:
@@ -170,14 +178,13 @@ packages:
     source: hosted
     version: "2.0.0"
   mysql_dart:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "."
-      ref: main
-      resolved-ref: "582f81d1cf65eebbb8430119f8a935916cae0a08"
-      url: "https://github.com/Hybiekay/mysql.dart"
-    source: git
-    version: "1.2.1"
+      name: mysql_dart
+      sha256: "7796f958c1860014e28cc3bcb1490a6e08c11ff1e7e79945aacf753bffe464ba"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.0"
   package_config:
     dependency: transitive
     description:
@@ -242,14 +249,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
-  tuple:
-    dependency: transitive
-    description:
-      name: tuple
-      sha256: a97ce2013f240b2f3807bcbaf218765b6f301c3eff91092bcfa23a039e7dd151
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.2"
   typed_data:
     dependency: transitive
     description:
