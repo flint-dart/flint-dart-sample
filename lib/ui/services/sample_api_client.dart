@@ -4,8 +4,19 @@ class SampleApiClient {
   const SampleApiClient._();
 
   static Future<Map<String, dynamic>> dashboard() async {
-    final response = await clientRouter.get<Map<String, dynamic>>(
+    final response = await clientRouter.query<Map<String, dynamic>>(
       '/api/dashboard',
+      body: {
+        'include': ['metrics', 'activity'],
+        'range': 'today',
+      },
+      query: {
+        'source': 'flint-ui',
+        'surface': 'dashboard',
+      },
+      headers: {
+        'x-sample-client': 'flint-query',
+      },
     );
     return _unwrap(response.data, response.error);
   }

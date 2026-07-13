@@ -17,10 +17,36 @@ class SampleController extends Controller {
       });
     }
 
+    final data = dashboardData();
+    if (req.method == 'QUERY') {
+      final body = await _dashboardQueryBody();
+      data['queryExample'] = {
+        'method': req.method,
+        'body': body,
+        'queryParameters': Map<String, dynamic>.from(req.query),
+      };
+      data['activity'] = [
+        {
+          'title': 'Flint UI used QUERY with a JSON body',
+          'time': body['range']?.toString() ?? 'today',
+          'color': '#7c3aed',
+        },
+        ...(data['activity'] as List<Map<String, String>>),
+      ];
+    }
+
     return res.json({
       "status": "success",
-      "data": dashboardData(),
+      "data": data,
     });
+  }
+
+  Future<Map<String, dynamic>> _dashboardQueryBody() async {
+    try {
+      return await req.json();
+    } on FormatException {
+      return {};
+    }
   }
 
   static Map<String, dynamic> welcomeData() {

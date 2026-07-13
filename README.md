@@ -36,6 +36,27 @@ Included pages:
 - `/login`
 - `/register`
 
+## HTTP QUERY Example
+
+The dashboard API keeps the existing `GET /api/dashboard` route and also
+registers `QUERY /api/dashboard` on the same path:
+
+```dart
+sample.query('/dashboard', (c) => c.dashboard());
+```
+
+The Flint UI client calls it with both a JSON body and query-string
+parameters:
+
+```dart
+await clientRouter.query('/api/dashboard', body: {
+  'include': ['metrics', 'activity'],
+  'range': 'today',
+}, query: {
+  'source': 'flint-ui',
+});
+```
+
 App-wide root styles and design tokens live in:
 
 ```text

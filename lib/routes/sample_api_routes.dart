@@ -14,5 +14,6 @@ class SampleApiRoutes extends RouteGroup {
 
     sample.get('/welcome', (c) => c.welcome());
     sample.get('/dashboard', (c) => c.dashboard());
+    sample.query('/dashboard', (c) => c.dashboard());
   }
 }
