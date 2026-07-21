@@ -2,12 +2,6 @@
   "configVersion": 2,
   "packages": [
     {
-      "name": "adaptive_number",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/adaptive_number-1.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "args",
       "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/args-2.7.0",
       "packageUri": "lib/",
@@ -63,15 +57,9 @@
     },
     {
       "name": "dart_jsonwebtoken",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/dart_jsonwebtoken-3.3.1",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/dart_jsonwebtoken-3.4.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
-    },
-    {
-      "name": "ed25519_edwards",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/ed25519_edwards-0.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "fixnum",
@@ -87,19 +75,19 @@
     },
     {
       "name": "flint_client",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_client-0.0.4",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_client-0.0.6",
       "packageUri": "lib/",
       "languageVersion": "3.8"
     },
     {
       "name": "flint_dart",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.1.15",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_dart-1.2.2",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "flint_ui",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_ui-0.1.12",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/flint_ui-0.1.15",
       "packageUri": "lib/",
       "languageVersion": "3.8"
     },
@@ -141,9 +129,9 @@
     },
     {
       "name": "package_config",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/package_config-2.2.0",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/package_config-3.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.11"
     },
     {
       "name": "path",
@@ -165,7 +153,7 @@
     },
     {
       "name": "postgres",
-      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/postgres-3.5.9",
+      "rootUri": "file:///C:/Users/Aim/AppData/Local/Pub/Cache/hosted/pub.dev/postgres-3.5.12",
       "packageUri": "lib/",
       "languageVersion": "3.9"
     },

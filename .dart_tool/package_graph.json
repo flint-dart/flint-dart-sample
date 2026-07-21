@@ -14,7 +14,7 @@
     },
     {
       "name": "flint_ui",
-      "version": "0.1.12",
+      "version": "0.1.15",
       "dependencies": [
         "flint_client",
         "universal_web"
@@ -22,7 +22,7 @@
     },
     {
       "name": "flint_dart",
-      "version": "1.1.15",
+      "version": "1.2.2",
       "dependencies": [
         "args",
         "bcrypt",
@@ -51,25 +51,12 @@
     },
     {
       "name": "flint_client",
-      "version": "0.0.4",
+      "version": "0.0.6",
       "dependencies": [
         "clock",
         "path",
         "web"
       ]
-    },
-    {
-      "name": "watcher",
-      "version": "1.2.1",
-      "dependencies": [
-        "async",
-        "path"
-      ]
-    },
-    {
-      "name": "args",
-      "version": "2.7.0",
-      "dependencies": []
     },
     {
       "name": "worker_manager",
@@ -82,9 +69,36 @@
       ]
     },
     {
-      "name": "flint_ai",
-      "version": "0.1.0",
-      "dependencies": []
+      "name": "watcher",
+      "version": "1.2.1",
+      "dependencies": [
+        "async",
+        "path"
+      ]
+    },
+    {
+      "name": "uuid",
+      "version": "4.5.2",
+      "dependencies": [
+        "crypto",
+        "fixnum",
+        "meta"
+      ]
+    },
+    {
+      "name": "postgres",
+      "version": "3.5.12",
+      "dependencies": [
+        "async",
+        "buffer",
+        "charcode",
+        "collection",
+        "crypto",
+        "meta",
+        "pool",
+        "stack_trace",
+        "stream_channel"
+      ]
     },
     {
       "name": "path",
@@ -93,10 +107,20 @@
     },
     {
       "name": "package_config",
-      "version": "2.2.0",
+      "version": "3.0.0",
       "dependencies": [
-        "path"
+        "meta"
       ]
+    },
+    {
+      "name": "mysql_dart",
+      "version": "3.0.0",
+      "dependencies": []
+    },
+    {
+      "name": "mime",
+      "version": "2.0.0",
+      "dependencies": []
     },
     {
       "name": "mailer",
@@ -114,47 +138,24 @@
       ]
     },
     {
-      "name": "uuid",
-      "version": "4.5.2",
-      "dependencies": [
-        "crypto",
-        "fixnum",
-        "meta"
-      ]
-    },
-    {
-      "name": "mime",
-      "version": "2.0.0",
-      "dependencies": []
-    },
-    {
-      "name": "postgres",
-      "version": "3.5.9",
-      "dependencies": [
-        "async",
-        "buffer",
-        "charcode",
-        "collection",
-        "crypto",
-        "meta",
-        "pool",
-        "stack_trace",
-        "stream_channel"
-      ]
-    },
-    {
-      "name": "mysql_dart",
-      "version": "3.0.0",
+      "name": "flint_ai",
+      "version": "0.1.0",
       "dependencies": []
     },
     {
       "name": "dart_jsonwebtoken",
-      "version": "3.3.1",
+      "version": "3.4.1",
       "dependencies": [
         "clock",
         "convert",
-        "ed25519_edwards",
         "pointycastle"
+      ]
+    },
+    {
+      "name": "crypto",
+      "version": "3.0.7",
+      "dependencies": [
+        "typed_data"
       ]
     },
     {
@@ -163,11 +164,9 @@
       "dependencies": []
     },
     {
-      "name": "crypto",
-      "version": "3.0.7",
-      "dependencies": [
-        "typed_data"
-      ]
+      "name": "args",
+      "version": "2.7.0",
+      "dependencies": []
     },
     {
       "name": "web",
@@ -180,6 +179,16 @@
       "dependencies": []
     },
     {
+      "name": "meta",
+      "version": "1.18.1",
+      "dependencies": []
+    },
+    {
+      "name": "collection",
+      "version": "1.19.1",
+      "dependencies": []
+    },
+    {
       "name": "async",
       "version": "2.13.0",
       "dependencies": [
@@ -188,13 +197,40 @@
       ]
     },
     {
-      "name": "meta",
-      "version": "1.18.1",
+      "name": "fixnum",
+      "version": "1.1.1",
       "dependencies": []
     },
     {
-      "name": "collection",
-      "version": "1.19.1",
+      "name": "stream_channel",
+      "version": "2.1.4",
+      "dependencies": [
+        "async"
+      ]
+    },
+    {
+      "name": "stack_trace",
+      "version": "1.12.1",
+      "dependencies": [
+        "path"
+      ]
+    },
+    {
+      "name": "pool",
+      "version": "1.5.2",
+      "dependencies": [
+        "async",
+        "stack_trace"
+      ]
+    },
+    {
+      "name": "charcode",
+      "version": "1.4.0",
+      "dependencies": []
+    },
+    {
+      "name": "buffer",
+      "version": "1.2.3",
       "dependencies": []
     },
     {
@@ -222,50 +258,11 @@
       "dependencies": []
     },
     {
-      "name": "fixnum",
-      "version": "1.1.1",
-      "dependencies": []
-    },
-    {
-      "name": "pool",
-      "version": "1.5.2",
+      "name": "pointycastle",
+      "version": "4.0.0",
       "dependencies": [
-        "async",
-        "stack_trace"
-      ]
-    },
-    {
-      "name": "charcode",
-      "version": "1.4.0",
-      "dependencies": []
-    },
-    {
-      "name": "stream_channel",
-      "version": "2.1.4",
-      "dependencies": [
-        "async"
-      ]
-    },
-    {
-      "name": "stack_trace",
-      "version": "1.12.1",
-      "dependencies": [
-        "path"
-      ]
-    },
-    {
-      "name": "buffer",
-      "version": "1.2.3",
-      "dependencies": []
-    },
-    {
-      "name": "ed25519_edwards",
-      "version": "0.3.1",
-      "dependencies": [
-        "adaptive_number",
         "collection",
-        "convert",
-        "crypto"
+        "convert"
       ]
     },
     {
@@ -276,25 +273,10 @@
       ]
     },
     {
-      "name": "pointycastle",
-      "version": "4.0.0",
-      "dependencies": [
-        "collection",
-        "convert"
-      ]
-    },
-    {
       "name": "typed_data",
       "version": "1.4.0",
       "dependencies": [
         "collection"
-      ]
-    },
-    {
-      "name": "adaptive_number",
-      "version": "1.0.0",
-      "dependencies": [
-        "fixnum"
       ]
     }
   ],
